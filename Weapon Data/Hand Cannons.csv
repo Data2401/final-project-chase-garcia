@@ -1,0 +1,54 @@
+Archetype,Weapon,Energy,Perk,Effect,RoF,Crit_dmg,Body_dmg,Crit_mult,"Optimal
+ TtK (s)",Opt_Shots,Crit_Percent,Opt_Crits,Opt_Body,Bursts,Body_TtK,Body_Kill,Bursts,Impact,Range,Stability,Handling,Reload_Speed,Aim_Assist,Recoil_Direction,Mag_Size
+Aggressive,Loud Lullaby (Moon Essence),Kinetic,,,120,80,50,1.6,1,3,67%,2,1,,1.5,4,,92,58,25,32,31,60,98,8
+Aggressive,Pribina-D (Gunsmith),Kinetic,,,120,80,50,1.6,1,3,67%,2,1,,1.5,4,,92,60,20,25,35,63,80,7
+Aggressive,True Prophecy (World),Kinetic,,,120,80,50,1.6,1,3,67%,2,1,,1.5,4,,92,62,30,37,30,62,93,9
+Aggressive,Igneous Hammer (Trials),Solar,,,120,80,50,1.6,1,3,67%,2,1,,1.5,4,,92,68,42,43,37,69,95,9
+Aggressive,Bottom Dollar (Gambit),Void,,,120,80,50,1.6,1,3,67%,2,1,,1.5,4,,92,64,35,38,32,66,85,8
+Aggressive,The Steady Hand (BL Iron Banner),Kinetic,,,120,80,50,1.6,1,3,67%,2,1,,1.5,4,,92,64,32,28,28,65,85,8
+Aggressive,Crimil's Dagger (Iron Banner),Kinetic,,,120,80,50,1.6,1,3,67%,2,1,,1.5,4,,92,64,31,31,32,67,98,8
+Aggressive,Duke Mk. 44 (World),Kinetic,,,120,80,50,1.6,1,3,67%,2,1,,1.5,4,,92,68,36,37,37,64,90,9
+Aggressive,Thin Line (Tangled Shore),Void,,,120,80,50,1.6,1,3,67%,2,1,,1.5,4,,92,60,17,22,21,60,88,9
+Aggressive Burst,Warden's Law* (Strike),Kinetic,,,120,91,50,1.82,1,3,67%,2,1,,1.5,4,,92,56,29,24,27,68,97,10
+Adaptive,Cantata-57 (World),Arc,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,51,56,57,51,82,85,11
+Adaptive,Crisis Inverted (Crucible),Arc,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,46,55,60,64,83,92,10
+Adaptive,Eyasluna (Grasp of Avarice Dungeon),Stasis,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,56,68,54,50,80,96,11
+Adaptive,Judgment (Prophecy Dungeon),Kinetic,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,50,48,48,46,75,95,9
+Adaptive,Annual Skate (World),Solar,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,46,54,52,44,75,88,10
+Adaptive,Anceint Gospel (GoS Raid),Solar,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,47,62,51,49,74,100,11
+Adaptive,Ten Paces (World),Kinetic,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,46,53,44,46,71,87,10
+Adaptive,Kindled Orchid (BA Forge),Void,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,45,55,46,48,76,99,10
+Adaptive,Nation of Beasts (Last Wish),Arc,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,40,57,42,45,71,95,10
+Adaptive,Fatebringer (Vault of Glass),Kinetic,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,51,61,60,51,84,98,10
+Adaptive,Finite Impactor (Iron Banner),Arc,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,42,51,50,46,74,99,10
+Adaptive,Palindrome (Strikes),Void,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,55,62,55,48,79,98,10
+Adaptive,Austringer (Menagerie),Kinetic,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,51,63,52,51,75,95,11
+Adaptive,Better Devils (Crucible),Kinetic,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,46,48,46,46,75,88,10
+Adaptive,The Old Fashioned (World),Kinetic,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,44,55,51,49,65,95,9
+Adaptive,Rose (Exotic Quest),Kinetic,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,44,46,71,59,85,95,11
+Adaptive,Spare Rations (Reckoning),Kinetic,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,43,54,74,60,83,100,13
+Adaptive,Waking Vigil (Dreaming City),Arc,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,37,43,63,56,82,98,12
+Adaptive,Dire Promise (World),Kinetic,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,49,53,61,54,83,84,11
+Adaptive,Jack Queen King 3 (Obelisk),Arc,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,48,44,73,63,83,100,13
+Precision,Not Forgotten (Quest),Solar,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,65,62,33,59,79,100,10
+Precision,Luna's Howl (Quest),Solar,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,47,71,42,86,79,95,10
+Precision,Vulpecula (Season of the Lost Ritual),Stasis,,,180,57,38,1.49,1,4,75%,3,1,,1.67,6,,78,39,58,36,57,69,97,12
+Precision,Optative (Vex Offensive),Void,,,180,57,38,1.49,1,4,75%,3,1,,1.67,6,,78,41,60,33,58,67,97,12
+Precision,Survivor's Epitaph (Crucible Post Game),Kinetic,,,180,57,38,1.49,1,4,75%,3,1,,1.67,6,,78,39,60,49,50,74,83,12
+Precision,Frontier's Cry (Iron Banner),Solar,,,180,57,38,1.49,1,4,75%,3,1,,1.67,6,,78,48,63,47,52,75,94,13
+Precision,Posterity (DSC Raid),Arc,,,180,57,38,1.49,1,4,75%,3,1,,1.67,6,,78,45,64,42,61,79,100,13
+Precision,Seventh Seraph Office Revolver (Seraph Bounty),Kinetic,,,180,57,38,1.49,1,4,75%,3,1,,1.67,6,,78,35,57,37,54,68,84,12
+Precision,Trust (Gambit),Solar,,,180,57,38,1.49,1,4,75%,3,1,,1.67,6,,78,37,56,35,50,78,96,12
+Precision,IKELOS_HC_V1.0.1 (Gunsmith),Void,,,180,57,38,1.49,1,4,75%,3,1,,1.67,6,,78,39,60,40,40,75,91,12
+Precision,Nature of the Beast (World Engrams),Arc,,,180,57,38,1.49,1,4,75%,3,1,,1.67,6,,78,40,65,42,32,76,80,13
+Special Ammo,Eriana's Vow,Solar,First Glance Crit,,90,164,78,2.1,0.67,2,50%,1,1,,1.33,3,,100,100,37,31,32,80,100,6
+Special Ammo,Forerunner (Magnum Opus Quest),Kinetic,ADS,,200,69,35,1.97,0.6,3,100%,3,0,,1.5,6,,35,100,88,68,96,60,96,15
+Adaptive,Lumina,Kinetic,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,53,55,78,65,88,100,12
+Lightweight,Sunshot,Solar,,,150,65,44,1.48,0.8,3,100%,3,0,,1.6,5,,78,47,50,92,75,60,100,12
+Adaptive,Hawkmoon,Kinetic,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,57,67,74,63,93,96,8
+Adaptive,Thorn**,Kinetic,DoT,,139,74,51,1.45,0.87,3,67%,2,1,,1.3,4,,84,54,60,86,46,85,100,11
+Precision,Malfeasance,Kinetic,,,180,57,38,1.5,1,4,75%,3,1,,1.33,5,,78,50,96,32,64,50,98,14
+Adaptive,Ace of Spades,Kinetic,,,139,70,47,1.49,0.87,3,100%,3,0,,1.73,5,,84,87,55,55,48,70,100,13
+Aggressive,Sturm***,Kinetic,,,120,91,50,1.82,1,3,67%,2,1,,1.5,4,,92,64,37,46,55,50,80,9
+Full Auto,The Last Word,Kinetic,Fan Fire,,225,68,38,1.8,0.53,3,100%,3,0,,1.33,6,,78,42,46,46,82,40,100,8
+Burst,Crimson****,Kinetic,,,386,31,19,1.61,0.87,7,86%,6,1,2.33,1.43,11,3.67,78,75,97,42,64,75,55,24

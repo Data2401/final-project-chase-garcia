@@ -1,0 +1,167 @@
+---
+title: "Testing"
+author: "Chase Garcia"
+date: "4/19/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(dplyr)
+
+```
+
+```{r}
+Auto_Rifles %>% filter(Body_dmg > 20)
+
+gun_data <- bind_rows(Auto_Rifles, Bows, Breech_Grenade_Launchers, Fusion_Rifles, Hand_Cannons, Heavy_Grenade_Launchers, Linear_Fusion_Rifles, Machine_Guns, Pulse_Rifles, Rocket_Launchers, Scout_Rifles, Shotguns, Sidearms, Sniper_Rifles, Submachine_Guns, Swords)
+
+
+view(auto_test)
+
+
+view(gun_data)
+
+view(Auto_Rifles)
+```
+
+
+```{r}
+##Auto Rifles are fully automatic weapons that thrive in close-medium range encounters. Their 2 top values would be RoF and Body Damage.
+
+##There are 9 Auto rifles with more than 390 ROF and more than 20 body damage
+top_autos <- Auto_Rifles %>% group_by(Archetype) %>% filter(Body_dmg > 20 & RoF > 350)
+
+
+##Scouts are semi automatic which specialize in range and precision. Their top two specialties will rely on their Crit damage and Optimal amount of shots for a kill
+
+##
+top_scouts <- Scout_Rifles %>% group_by(Archetype) %>% filter(Crit_dmg > 50 & Opt_Shots < 3.1)
+
+
+#Hand cannons 
+
+##Their top attributes you want to look for are Range, Stability and 
+top_hand_cannons <- Hand_Cannons %>% group_by(Archetype) %>% filter(Range > 55 & Stability > 55)
+
+##Pulse Rifles
+
+##Pulse rifles are a ranged weapon that shoot in bursts of 3.4 or 5 and specialize in medium ranged combat
+
+top_pulse <- Pulse_Rifles %>% group_by(Archetype) %>% filter(Range > 55 & Stability > 55 & RoF > 350)
+
+#Sub Machine Guns
+
+#Sub machine guns are fully automatic weapons with very limited range and their defining features are it RoF, Handling and Stability
+
+top_subs <- Submachine_Guns %>% group_by(Archetype) %>% filter(RoF > 700 & Handling > 55 & Stability > 55)
+
+#Bows
+
+#Bows are Long ranges weapons that typically take 2-3 shot to take someone out. What you want to look for in a bow are a quick draw time, high impact, and/or good accuracy.
+
+top_bows <- Bows %>% group_by(Archetype) %>% filter(Draw_Time < 700 & Impact > 70 & Accuracy > 50)
+
+#Fusion Rifles
+
+#Fusion Rifles are energy base weapons which you start with limited ammo and can only be shot twice before needing to pick up from a dead player. The features you look for in a good fusion rifle are Low charge time, Handling and high impact.
+
+top_fusions <- Fusion_Rifles %>% group_by(Archetype) %>% filter(`Charge_Time(ms)`<.8 & Handling > 40 & Impact > 60)
+
+#Shotguns
+
+#Shotguns are very close quarter combat weapons that will usualy 1 shot anyone within their effective range. There for we are going to want to look for one with good range, impact, and stability. 
+
+top_shotguns <- Shotguns %>% group_by(Archetype) %>% filter(Impact > 65 & Handling > 60)
+
+#Side Arms
+
+#side arms are not the most effective in PVP but can still be viable in certain situations. Side arms thrive in close to medium combat and tend to have good handling, good recoil control and decent RoF.
+
+top_sidearms <- Sidearms %>% group_by(Archetype) %>% filter(Handling > 50 & Recoil_Direction > 95)
+
+#Breaching Grenade Launchers
+#Blast Radius, Velocity and Reload speed or handling
+
+top_bgl <- Breech_Grenade_Launchers %>% group_by(Archetype) %>% filter(Blast_Radius > 54, Velocity > 75 & Reload_Speed > 70)
+
+#Sniper Rifles
+
+#Sniper rifles require special ammo which means you only start with 2 shots. However they do 1 have 1 shot capabilities like other weapons that use special ammo. Sniper excel in long range combat so the specs you will want to look out for are its handling, low zoom magnification and Aim_assist(for controller players)
+
+top_snipers <- Sniper_Rifles %>% group_by(Archetype) %>% filter(Handling > 40 & Lowest_Zoom < 55 & Aim_Assist > 50)
+
+#Linear Fusion Rifles
+
+#Linear Fusion rifles require special ammo and have one shot capabilities as well but they require time to charge up and unlike normal fusion rifles these only shoot one time per charge. Since these weapons excel in medium to long range you want to look out for stats like low charge time and good handling
+
+top_linear <- Linear_Fusion_Rifles %>% group_by(Archetype) %>% filter(`Charge_Time(ms)`> 500 & Handling > 35)
+
+#Rocket Launchers
+#Blast Radius and Velocity
+
+top_rockets <- Rocket_Launchers %>% group_by(Archetype) %>% filter(Blast_Radius > 74 & Velocity > 50)
+
+#Heavy Grenade Launchers
+#Blast Radius and Velocity
+
+top_hgl <- Heavy_Grenade_Launchers %>% group_by(Archetype) %>% filter(Blast_Radius > 20 & Velocity > 40)
+
+#Machine Guns
+#Either high body damage and good range or high RoF and good handling
+
+top_mg <- Machine_Guns %>% group_by(Archetype) %>% filter(Body_dmg > 29 & Range > 65)
+
+#Swords 
+#Speed and Impact
+
+top_swords <- Swords %>% group_by(Archetype) %>% filter(Speed > 45 & Impact > 59)
+
+```
+
+
+```{r}
+
+
+
+
+
+
+```
+
+
+
+
+
+
+
+
+```{r}
+
+##Graph Ideas
+gun_data %>% ggplot(aes(Crit_dmg, Body_dmg)) + geom_point()
+
+gun_data %>% ggplot(aes(`Optimal_TtK(s)`)) + geom_histogram()
+
+ggplot(data = gun_data) + 
+  geom_bar(mapping = aes(x = Archetype, fill = Energy)) + ggtitle("Amount of each Archetype")
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+

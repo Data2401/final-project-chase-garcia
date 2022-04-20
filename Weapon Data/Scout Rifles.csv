@@ -1,0 +1,36 @@
+Archetype,Weapon,Energy,Perk,Effect,RoF,Crit_dmg,Body_dmg,Crit_mult,Optimal_TtK(s),Opt_Shots,Crit_Percent,Opt_Crits,Opt_Body,Bursts,Body_TtK,Body_Kill,Bursts,Impact,Range,Stability,Handling,Reload_Speed,Aim_Assist,Mag_Size
+High-Impact,Does Not Compute (Crucible),Kinetic,,,150,67,38,1.76,0.8,3,100%,3,0,,2,6,,67,64,24,35,43,39,12
+High-Impact,Imperative (Vex Offensive),Kinetic,,,150,67,38,1.76,0.8,3,100%,3,0,,2,6,,67,69,28,30,37,33,13
+High-Impact,Wrong Side of Right (Tangled Shore),Kinetic,,,150,67,38,1.76,0.8,3,100%,3,0,,2,6,,67,60,20,20,25,39,13
+High-Impact,The Guiding Sight (BL Iron Banner),Kinetic,,,150,67,38,1.76,0.8,3,100%,3,0,,2,6,,67,68,32,34,42,30,13
+High-Impact,Talons of the Eagle (Iron Banner),Kinetic,,,150,67,38,1.76,0.8,3,100%,3,0,,2,6,,67,71,36,33,39,30,14
+High-Impact,Transfiguration (Last Wish Raid),Kinetic,,,150,67,38,1.76,0.8,3,100%,3,0,,2,6,,67,74,22,29,25,29,14
+High Impact,Perses-D (World),Stasis,,,150,67,38,1.76,0.8,3,100%,3,0,,2,6,,67,71,30,38,40,36,14
+High Impact,Pointed Inquiry (Throne World)ᶜ,Void,,,150,67,38,1.76,0.8,3,100%,3,0,,2,6,,67,71,30,32,39,52,27
+High-Impact,Calusea Noblesse (CoS Raid),Void,,,150,67,38,1.76,0.8,3,100%,3,0,,2,6,,67,74,29,36,37,32,14
+High-Impact,The Cut and Run (World),Arc,,,150,67,38,1.76,0.8,3,100%,3,0,,2,6,,67,68,36,34,37,37,13
+High-Impact,The Scholar (Trials),Kinetic,,,150,67,38,1.76,0.8,3,100%,3,0,,2,6,,67,69,29,37,38,32,13
+Precision,Oxygen SR3 (Vanguard Pinnacle),Solar,,,180,54,34,1.6,1,4,75%,3,1,,1.67,6,,62,59,60,47,50,67,16
+Precision,Hung Jury (Nightfalls),Kinetic,,,180,54,34,1.6,1,4,75%,3,1,,1.67,6,,62,54,60,55,51,67,16
+Precision,Vision of Confluence (Vault of Glass),Solar,,,180,54,34,1.6,1,4,75%,3,1,,1.67,6,,62,51,48,50,52,65,16
+Precision,No Feelings (Scourge of the Past),Arc,,,180,54,34,1.6,1,4,75%,3,1,,1.67,6,,62,52,49,46,49,66,15
+Precision,Royal Chase (Season 12 Pass),Void,,,180,54,34,1.6,1,4,75%,3,1,,1.67,6,,62,44,44,47,46,63,16
+Precision,Distant Relation (Gambit),Solar,,,180,54,34,1.6,1,4,75%,3,1,,1.67,6,,62,41,49,40,39,61,16
+Precision,Nameless Midnight (Vanguard),Kinetic,,,180,54,34,1.6,1,4,75%,3,1,,1.67,6,,62,46,44,47,50,62,16
+Lightweight,Patron of Lost Causes (Sundial),Kinetic,,,200,54,31,1.74,0.9,4,75%,3,1,,1.8,7,,60,40,39,67,58,67,15
+Lightweight,Pleiades Corrector (World),Solar,,,200,54,31,1.74,0.9,4,75%,3,1,,1.8,7,,60,35,49,74,67,76,16
+Lightweight,Eternal Blazon (Strikes),Arc,,,200,54,31,1.74,0.9,4,75%,3,1,,1.8,7,,60,40,41,66,61,67,16
+Lightweight,Night Watch (Reckoning),Kinetic,,,200,54,31,1.74,0.9,4,75%,3,1,,1.8,7,,60,43,41,69,62,69,16
+Lightweight,Vouchsafe (Dreaming City),Void,,,200,54,31,1.74,0.9,4,75%,3,1,,1.8,7,,60,33,32,63,55,73,15
+Rapid-Fire,Aisha's Embrace (Trials of Osiris),Void,,,257,47,28,1.68,0.93,5,60%,3,2,,1.4,7,,45,41,51,33,42,71,18
+Rapid Fire,Servant Leader (Gambit),Kinetic,,,257,47,28,1.68,0.93,5,60%,3,2,,1.4,7,,45,32,48,26,36,67,17
+Rapid Fire,Contingency Plan (World),Arc,,,257,47,28,1.68,0.93,5,60%,3,2,,1.4,7,,45,32,50,28,33,66,17
+Rapid Fire,Randy's Throwing Knife (Crucible Pinnacle),Kinetic,,,257,47,28,1.68,0.93,5,60%,3,2,,1.4,7,,45,31,50,42,17,63,20
+Rapid Fire,Trustee (DSC Raid),Solar,,,257,47,28,1.68,0.93,5,60%,3,2,,1.4,7,,45,42,49,37,38,67,17
+Rapid Fire,Black Scorpion-4sr (Gunsmith),Arc,,,257,47,28,1.68,0.93,5,60%,3,2,,1.4,7,,45,28,54,34,35,56,18
+Rapid Fire,Symmetry,Arc,,,257,47,28,1.68,0.93,5,60%,3,2,,1.4,7,,45,37,68,42,24,75,20
+High-Impact,Polaris Lance,Solar,,,150,67,38,1.76,0.8,3,100%,3,0,,2,6,,67,79,75,32,49,39,15
+Lever-Action,Dead Man's Tale,Kinetic,,,120,81,48,,1,3,67%,2,1,,1.5,4,,67,64,37,55,55,60,14
+High-Impact,The Jade Rabbit,Kinetic,,,150,67,38,1.76,0.8,3,100%,3,0,,2,6,,67,86,55,29,59,80,10
+Lightweight,MIDA Multi-Tool,Kinetic,,,200,54,31,1.74,0.9,4,75%,3,1,,1.8,7,,60,50,50,86,82,100,16
+Slug Rifle,Skyburner's Oath,Solar,Hip Fire,,200,52,47,1.11,0.9,4,25%,1,3,,1.2,5,,60,55,55,68,37,90,18

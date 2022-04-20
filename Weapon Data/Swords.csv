@@ -1,0 +1,34 @@
+Archetype,Weapon,Energy,Ammo,"Charge
+Rate",Speed,Impact,Range,Efficiency,Defense
+Lightweight,Quickfang (World),Void,74,34,82,60,20,10,50
+Lightweight,Goldtusk,Solar,74,34,82,60,20,10,50
+Caster,Temptation Hook (Umbral Engram),Arc,55,50,46,46,,10,20
+Caster,Sola's Scar (Trials),Solar,60,32,46,60,,,60
+Vortex,Falling Guillotine (Umbral Engram),Void,60,32,46,60,,10,20
+Vortex,Razor's Edge (Iron Banner),Void,59,32,46,60,,,60
+Vortex,Hero of Ages (Grasp of Avarice Dungeon),Arc,57,33,46,60,,,60
+Adaptive,Night Terror (Moon Essence),Arc,60,32,46,60,40,10,60
+Adaptive,Stryker's Sure-Hand (BA Forge),Arc,60,32,46,60,40,10,60
+Adaptive,Hagakure,Arc,60,32,46,60,50,10,60
+Adaptive,Abide the Return (World),Solar,60,32,46,60,40,10,60
+Adaptive,Zephyr,Stasis,60,32,46,60,50,10,60
+Adaptive,Honor's Edge (World),Arc,62,32,46,60,50,10,60
+Adaptive,Half-Truths (Xurs Treasure Hoard),Arc,61,32,46,60,40,,
+Adaptive,The Other Half (Xurs Treasure Hoard),Void,61,32,46,60,40,,
+Adaptive,Traitor's Fate,Arc,62,32,46,60,40,10,60
+Adaptive,Bequest (DSC Raid),Arc,60,32,46,70,40,53,70
+Adaptive,It Stared Back,Solar,60,32,46,60,40,10,60
+Adaptive,Just In Case (Reckoning),Solar,62,32,46,60,40,10,60
+Adaptive,Steel Sybil Z-14 (Crucible),Void,59,32,46,60,40,10,60
+Adaptive,Negative Space (World Engram),Solar,60,32,46,60,40,10,68
+Adaptive,Complex Solution,Solar,61,32,46,60,40,10,60
+Adaptive,Unspoken Promise,Arc,60,32,46,60,40,10,60
+Adaptive,Eternity's Edge (World),Solar,62,32,46,60,50,10,60
+Adaptive,Double-Edged Answer,Void,58,32,46,60,60,10,60
+Adaptive,Future Safe 10,Solar,60,32,46,60,40,10,60
+Adaptive,Death's Razor,Solar,62,32,46,60,50,10,60
+Aggressive,Throne-Cleaver,Void,48,30,10,73,60,10,50
+Aggressive,Crown-Splitter (World),Void,48,30,10,72,60,10,50
+Exotic,Black Talon,Void,62,59,46,61,40,53,76
+Exotic,The Lament,Solar,62,32,46,74,,10,20
+Exotic,Wordline Zero,Arc,60,20,46,60,40,10,60
