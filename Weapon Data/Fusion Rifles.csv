@@ -1,31 +1,31 @@
-Archetype,Weapon,Energy,Perk,Effect,Charge_Time(ms),Crit_dmg,Body_dmg,Crit_mult,Optimal_TtK(s),Chrg_to_Kill,Crit_Percent,Crits,Body,Bursts,Body_TtK,Body_Kill,Bursts,Impact,Range,Stability,Handling,Reload_Speed,Inventory,Aim_Assist,Recoil_Direction,Mag_Size
-High-Impact,The Wizened Rebuke (Iron Banner),Arc,,,1,64,64,1,1.1,3,0%,0,3,,1.1,3,,95,56,35,30,28,28,62,72,5
-High-Impact,Erentil FR4 (Gunsmith),Void,,,1,64,64,1,1.1,3,0%,0,3,,1.1,3,,95,59,30,26,28,30,65,60,5
-High-Impact,Loaded Question (Vanguard Pinnacle),Arc,,,1,64,64,1,1.1,3,0%,0,3,,1.1,3,,95,57,32,32,27,30,66,77,5
-High-Impact,Glacioclasm (The Dawning),Void,,,1,64,64,1,1.1,3,0%,0,3,,1.1,3,,95,67,36,40,24,26,55,78,5
-High-Impact,Gallant Charge (Sundial),Solar,,,1,64,64,1,1.1,3,0%,0,3,,1.1,3,,95,53,31,27,24,22,61,76,5
-High-Impact,Elatha FR4 (World),Solar,,,1,64,64,1,1.1,3,0%,0,3,,1.1,3,,95,54,32,29,24,20,58,62,5
-High-Impact,Exile's Curse (Trials),Arc,,,1,64,64,1,1.1,3,0%,0,3,,1.1,3,,95,53,34,34,27,26,61,79,5
-High-Impact,Iota Draconis (Season 15 Ritual),Solar,,,1,64,64,1,1.1,3,,,,,1.1,3,,95,51,32,30,25,18,59,73,5
-Precision,Deliverance (Vow of the Disciple)ᶜ,Stasis,,,0.73,40,40,1,0.9,5,0%,0,5,,0.9,5,,80,66,57,39,41,39,67,80,6
-Precision,Snorri FR5 (World),Void,,,0.73,40,40,1,0.9,5,0%,0,5,,0.9,5,,80,65,55,43,40,38,62,79,6
-Precision,Hollow Words (Umbral Engram),Arc,,,0.73,40,40,1,0.9,5,0%,0,5,,0.9,5,,80,54,44,31,28,26,63,75,6
-Precision,The Epicurean (Menagerie),Void,,,0.73,40,40,1,0.9,5,0%,0,5,,0.9,5,,80,63,54,37,33,39,65,80,5
-Precision,PLUG ONE.1 (Nightfall),Arc,,,0.73,40,40,1,0.9,5,0%,0,5,,0.9,5,,80,62,54,42,38,40,66,75,6
-Precision,Tempered Dynamo (Scourge of the Past),Arc,,,0.73,40,40,1,0.9,5,0%,0,5,,0.9,5,,80,57,52,35,32,30,65,80,5
-Precision,Main Ingredient (Vangaurd),Arc,,,0.73,40,40,1,0.9,5,0%,0,5,,0.9,5,,80,63,54,38,32,40,59,73,5
-Aggressive,Coriolis Force (Europa),Void,,,0.67,46,46,1,0.87,5,0%,0,5,,0.83,5,,70,40,43,33,41,34,45,50,6
-Adaptive,Dream Breaker (Moon Essence),Solar,,,0.67,39,39,1,0.83,5,0%,0,5,,0.83,5,,70,37,42,34,37,31,43,57,6
-Adaptive,Trinary System (Gambit),Solar,,,0.67,39,39,1,0.83,5,0%,0,5,,0.83,5,,70,45,49,42,45,40,54,55,6
-Adaptive,Timeline's Vertex (World),Solar,,,0.67,39,39,1,0.83,5,0%,0,5,,0.83,5,,70,42,46,42,46,50,60,60,6
-Adaptive,Techeun Force (Last Wish),Arc,,,0.67,39,39,1,0.83,5,0%,0,5,,0.83,5,,70,45,45,34,41,29,44,60,6
-Rapid-Fire,Likely Suspect (Throne World)ᶜ,Void,,Adept Charge Time,0.47,29,29,1,0.7,7,0%,0,7,,0.7,7,,55,26,38,53,51,52,32,50,7
-Rapid-Fire,Zealot's Reward (GoS Raid),Void,,Adept Charge Time,0.47,29,29,1,0.7,7,0%,0,7,,0.7,7,,55,30,35,60,53,52,37,49,7
-Rapid-Fire,Null Composure (Pinnacle),Void,,Adept Charge Time,0.47,29,29,1,0.7,7,,,,,0.7,7,,55,54,46,74,53,55,38,55,6
-Rapid-Fire,Cartesian Coordinate (World),Solar,,Adept Charge Time,0.47,29,29,1,0.7,7,,,,,0.7,7,,55,29,33,55,51,49,60,52,7
-Rapid-Fire,Proelium FR3 (Gunsmith),Solar,,Adept Charge Time,0.47,29,29,1,0.7,7,0%,0,7,,0.7,7,,55,32,35,57,50,52,33,45,7
-Kinetic,Bastion,Kinetic,,,0.73,27,27,1,1,8,0%,0,8,,1,8,,85,42,57,39,32,30,65,75,5
-Exotic,Telesto,Void,,,0.77,40,40,1,0.93,5,0%,0,5,,0.93,5,,85,42,81,66,82,55,46,66,4
-Exotic,Merciless,Solar,,,1.03,63,63,1,1.17,4,0%,0,4,,1.17,4,,75,45,57,38,31,36,69,94,8
-Exotic,Jotunn,Solar,,,0.77,323,323,1,0.8,1,0%,0,1,,0.8,1,,97,52,31,42,31,26,67,77,5
-Exotic(Heavy),One Thousand Voices,Solar,,,1,0,0,1,0.5,1,0%,,,,,,,999,999,46,10,37,9999,70,NA,4
+Archetype,Weapon,Energy,Perk,Effect,Charge_Time(ms),Crit_dmg,Body_dmg,Crit_mult,Optimal_TtK(s),Chrg_to_Kill,Crit_Percent,Crits,Body,Bursts,Body_TtK,Body_Kill,Bursts,Impact,Range,Stability,Handling,Reload_Speed,Inventory,Aim_Assist,Recoil_Direction,Mag_Size,Type
+High-Impact,The Wizened Rebuke (Iron Banner),Arc,,,1,64,64,1,1.1,3,0%,0,3,,1.1,3,,95,56,35,30,28,28,62,72,5,Fusionrifle
+High-Impact,Erentil FR4 (Gunsmith),Void,,,1,64,64,1,1.1,3,0%,0,3,,1.1,3,,95,59,30,26,28,30,65,60,5,Fusionrifle
+High-Impact,Loaded Question (Vanguard Pinnacle),Arc,,,1,64,64,1,1.1,3,0%,0,3,,1.1,3,,95,57,32,32,27,30,66,77,5,Fusionrifle
+High-Impact,Glacioclasm (The Dawning),Void,,,1,64,64,1,1.1,3,0%,0,3,,1.1,3,,95,67,36,40,24,26,55,78,5,Fusionrifle
+High-Impact,Gallant Charge (Sundial),Solar,,,1,64,64,1,1.1,3,0%,0,3,,1.1,3,,95,53,31,27,24,22,61,76,5,Fusionrifle
+High-Impact,Elatha FR4 (World),Solar,,,1,64,64,1,1.1,3,0%,0,3,,1.1,3,,95,54,32,29,24,20,58,62,5,Fusionrifle
+High-Impact,Exile's Curse (Trials),Arc,,,1,64,64,1,1.1,3,0%,0,3,,1.1,3,,95,53,34,34,27,26,61,79,5,Fusionrifle
+High-Impact,Iota Draconis (Season 15 Ritual),Solar,,,1,64,64,1,1.1,3,,,,,1.1,3,,95,51,32,30,25,18,59,73,5,Fusionrifle
+Precision,Deliverance (Vow of the Disciple)ᶜ,Stasis,,,0.73,40,40,1,0.9,5,0%,0,5,,0.9,5,,80,66,57,39,41,39,67,80,6,Fusionrifle
+Precision,Snorri FR5 (World),Void,,,0.73,40,40,1,0.9,5,0%,0,5,,0.9,5,,80,65,55,43,40,38,62,79,6,Fusionrifle
+Precision,Hollow Words (Umbral Engram),Arc,,,0.73,40,40,1,0.9,5,0%,0,5,,0.9,5,,80,54,44,31,28,26,63,75,6,Fusionrifle
+Precision,The Epicurean (Menagerie),Void,,,0.73,40,40,1,0.9,5,0%,0,5,,0.9,5,,80,63,54,37,33,39,65,80,5,Fusionrifle
+Precision,PLUG ONE.1 (Nightfall),Arc,,,0.73,40,40,1,0.9,5,0%,0,5,,0.9,5,,80,62,54,42,38,40,66,75,6,Fusionrifle
+Precision,Tempered Dynamo (Scourge of the Past),Arc,,,0.73,40,40,1,0.9,5,0%,0,5,,0.9,5,,80,57,52,35,32,30,65,80,5,Fusionrifle
+Precision,Main Ingredient (Vangaurd),Arc,,,0.73,40,40,1,0.9,5,0%,0,5,,0.9,5,,80,63,54,38,32,40,59,73,5,Fusionrifle
+Aggressive,Coriolis Force (Europa),Void,,,0.67,46,46,1,0.87,5,0%,0,5,,0.83,5,,70,40,43,33,41,34,45,50,6,Fusionrifle
+Adaptive,Dream Breaker (Moon Essence),Solar,,,0.67,39,39,1,0.83,5,0%,0,5,,0.83,5,,70,37,42,34,37,31,43,57,6,Fusionrifle
+Adaptive,Trinary System (Gambit),Solar,,,0.67,39,39,1,0.83,5,0%,0,5,,0.83,5,,70,45,49,42,45,40,54,55,6,Fusionrifle
+Adaptive,Timeline's Vertex (World),Solar,,,0.67,39,39,1,0.83,5,0%,0,5,,0.83,5,,70,42,46,42,46,50,60,60,6,Fusionrifle
+Adaptive,Techeun Force (Last Wish),Arc,,,0.67,39,39,1,0.83,5,0%,0,5,,0.83,5,,70,45,45,34,41,29,44,60,6,Fusionrifle
+Rapid-Fire,Likely Suspect (Throne World)ᶜ,Void,,Adept Charge Time,0.47,29,29,1,0.7,7,0%,0,7,,0.7,7,,55,26,38,53,51,52,32,50,7,Fusionrifle
+Rapid-Fire,Zealot's Reward (GoS Raid),Void,,Adept Charge Time,0.47,29,29,1,0.7,7,0%,0,7,,0.7,7,,55,30,35,60,53,52,37,49,7,Fusionrifle
+Rapid-Fire,Null Composure (Pinnacle),Void,,Adept Charge Time,0.47,29,29,1,0.7,7,,,,,0.7,7,,55,54,46,74,53,55,38,55,6,Fusionrifle
+Rapid-Fire,Cartesian Coordinate (World),Solar,,Adept Charge Time,0.47,29,29,1,0.7,7,,,,,0.7,7,,55,29,33,55,51,49,60,52,7,Fusionrifle
+Rapid-Fire,Proelium FR3 (Gunsmith),Solar,,Adept Charge Time,0.47,29,29,1,0.7,7,0%,0,7,,0.7,7,,55,32,35,57,50,52,33,45,7,Fusionrifle
+Kinetic,Bastion,Kinetic,,,0.73,27,27,1,1,8,0%,0,8,,1,8,,85,42,57,39,32,30,65,75,5,Fusionrifle
+Exotic,Telesto,Void,,,0.77,40,40,1,0.93,5,0%,0,5,,0.93,5,,85,42,81,66,82,55,46,66,4,Fusionrifle
+Exotic,Merciless,Solar,,,1.03,63,63,1,1.17,4,0%,0,4,,1.17,4,,75,45,57,38,31,36,69,94,8,Fusionrifle
+Exotic,Jotunn,Solar,,,0.77,323,323,1,0.8,1,0%,0,1,,0.8,1,,97,52,31,42,31,26,67,77,5,Fusionrifle
+Exotic(Heavy),One Thousand Voices,Solar,,,1,0,0,1,0.5,1,0%,,,,,,,999,999,46,10,37,9999,70,NA,4,Fusionrifle

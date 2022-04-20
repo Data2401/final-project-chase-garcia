@@ -124,14 +124,24 @@ top_swords <- Swords %>% group_by(Archetype) %>% filter(Speed > 45 & Impact > 59
 
 ```{r}
 
+top_weapons <- bind_rows(top_autos, top_bgl, top_bows, top_fusions, top_hand_cannons, top_hgl, top_linear, top_mg, top_pulse, top_rockets, top_scouts, top_shotguns, top_sidearms, top_snipers, top_subs, top_swords)
+
+view(top_weapons)
+
+```
+
+```{r}
+ggplot(data = top_weapons) + geom_bar(mapping = aes(x = Energy)) + ggtitle("Energy distribution using top weapons")
 
 
+ggplot(data = gun_data) + geom_bar(mapping = aes(x = Energy)) + ggtitle("Energy distribution using all weapons")
+
+
+top_weapons %>% ggplot(aes(Range, Stability)) + geom_point()
 
 
 
 ```
-
-
 
 
 

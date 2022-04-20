@@ -1,48 +1,48 @@
-Archetype,Weapon,Energy,Perk,Effect,RoF,Crit_dmg,Body_dmg,Crit_mult,Optimal_TtK(s),Opt_Shots,Crit_Percent,Opt_Crits,Opt_Body,Bursts,Body_TtK,Body_Kill,Bursts,Impact,Range,Stability,Handling,Reload_Speed,Aim_Assist,Recoil_Direction,Mag_Size
-High Impact,Halfdan-D (Gunsmith),Kinetic,,,360,35,22,1.6,0.83,6,83%,5,1,,1.33,9,,33,82,28,45,35,60,70,33
-High Impact,Gahlran's Right Hand (CoS Raid),Kinetic,,,360,35,22,1.6,0.83,6,83%,5,1,,1.33,9,,33,82,25,45,38,56,85,32
-High Impact,Pluperfect (Season Pass),Kinetic,,,360,35,22,1.6,0.83,6,83%,5,1,,1.33,9,,33,75,24,41,41,54,89,31
-High Impact,Age-Old Bond (Last Wish),Void,,,360,35,22,1.6,0.83,6,83%,5,1,,1.33,9,,33,82,18,38,34,61,79,35
-High Impact,False Promises (Umbral Engram),Kinetic,,,360,35,22,1.6,0.83,6,83%,5,1,,1.33,9,,33,75,25,42,44,52,86,32
-High Impact,Chrysura Melo (Season 15 Pass Reward),Solar,,,360,35,22,1.6,0.83,6,83%,5,1,,1.33,9,,33,76,22,37,37,58,86,32
-High Impact,Come to Pass (Wellspring)ᶜ,Arc,,,360,35,22,1.6,0.83,6,83%,5,1,,1.33,9,,33,80,23,38,41,54,83,32
-High Impact,Herod-C (Gambit),Stasis,,,360,35,22,1.6,0.83,6,83%,5,1,,1.33,9,,33,81,34,37,44,61,76,33
-Precision,BrayTech Werewolf (FotL),Kinetic,,,450,29,18,1.6,0.8,7,100%,7,0,,1.33,11,,29,72,47,45,48,47,74,34
-Precision,Tigerspite (Dreaming City),Kinetic,,,450,29,18,1.6,0.8,7,100%,7,0,,1.33,11,,29,66,47,46,46,44,68,33
-Precision,The Number (World),Arc,,,450,29,18,1.6,0.8,7,100%,7,0,,1.33,11,,29,55,46,42,42,44,70,33
-Precision,Shadow Price (Strikes),Arc,,,450,29,18,1.6,0.8,7,100%,7,0,,1.33,11,,29,67,50,49,52,43,79,33
-Precision,Hazard of the Cast (Gambit),Kinetic,,,450,29,18,1.6,0.8,7,100%,7,0,,1.33,11,,29,64,41,44,43,44,69,33
-Precision,Breakneck (Gambit Pinnacle)***,Kinetic,,,450,29,18,1.6,0.8,7,100%,7,0,,1.33,11,,29,68,50,43,51,44,80,34
-Precision,Horror Story (FotL),Kinetic,,,450,29,18,1.6,0.8,7,100%,7,0,,1.33,11,,29,61,46,43,47,35,73,32
-Precision,Uriel's Gift (World),Arc,,,450,29,18,1.6,0.8,7,100%,7,0,,1.33,11,,29,61,45,46,46,44,71,33
-Precision,Sevanth Seraph Carbine (Seraph Bounty),Kinetic,,,450,29,18,1.6,0.8,7,100%,7,0,,1.33,11,,29,62,45,45,47,34,74,34
-Adaptive,Sorrow's Verse (Crucible),Arc,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,50,41,68,62,68,53,41
-Adaptive,The Last Breath (Prophecy Dungeon),Kinetic,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,48,49,70,56,67,56,43
-Adaptive,Scathelocke (World),Kinetic,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,50,45,66,59,65,60,42
-Adaptive,Duty Bound (Nightfall),Kinetic,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,42,45,61,54,73,60,41
-Adaptive,The Summoner (Trials),Solar,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,46,47,73,60,62,57,42
-Adaptive,Arc Logic (Moon Essence),Arc,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,44,41,68,60,65,47,41
-Adaptive,Gnawing Hunger (Reckoning),Void,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,53,49,67,61,65,54,44
-Adaptive,Ether Doctor (Tangled Shore),Kinetic,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,38,40,61,52,61,47,43
-Adaptive,The Forward Path (Iron Banner),Kinetic,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,50,48,72,64,71,60,43
-Rapid Fire,Krait (World),Stasis,,,720,20,13,1.5,0.77,10,90%,9,1,,1.17,15,,18,40,62,50,58,78,56,53
-Rapid Fire,Steelfeather Repeater (Sundial),Kinetic,,,720,20,13,1.5,0.77,10,90%,9,1,,1.17,15,,18,32,38,44,55,72,57,49
-Rapid Fire,Chroma Rush (Override),Kinetic,,,720,20,13,1.5,0.77,10,90%,9,1,,1.17,15,,18,32,60,42,52,80,45,51
-Rapid Fire,Sweet Sorrow (Season of the Risen)ᶜ,Arc,,,720,20,13,1.5,0.77,10,90%,9,1,,1.17,15,,18,31,59,48,52,81,57,52
-Rapid Fire,Artic Haze (Europa),Solar,,,720,20,13,1.5,0.77,10,90%,9,1,,1.17,15,,18,32,53,48,53,75,42,51
-Rapid Fire,Reckless Oracle (GoS Raid),Void,,,720,20,13,1.5,0.77,10,90%,9,1,,1.17,15,,18,33,60,48,60,75,59,51
-Rapid Fire,Misfit (World),Arc,,,720,20,13,1.5,0.77,10,90%,9,1,,1.17,15,,18,35,58,47,53,76,54,51
-Rapid Fire,Valakadyn (Gunsmith),Solar,,,720,20,13,1.5,0.77,10,90%,9,1,,1.17,15,,18,35,52,44,54,66,56,53
-Trace Rifle,Retraced Path (Xurs Treasure Hoard),Solar,,,900,17,13,1.31,0.73,12,75%,9,3,,0.93,15,,6,68,78,51,50,100,94,94
-Trace Rifle,Divinity,Arc,,,900,17,13,1.31,0.73,12,75%,9,3,,0.93,15,,6,70,100,60,50,100,100,94
-Trace Rifle,Wavesplitter,Void,,,900,18,13,1.38,0.67,11,91%,10,1,,0.93,15,,6,70,96,51,50,100,100,102
-Trace Rifle,Ruinous Effigy,Void,,,900,17,13,1.31,0.73,12,75%,9,3,,0.93,15,,8,50,80,58,40,84,96,94
-Trace Rifle,Coldheart,Arc,,,900,18,13,1.38,0.67,11,91%,10,1,,0.93,15,,6,73,73,32,37,100,100,101
-Trace Rifle,Prometheus Lens,Solar,,,900,17,13,1.31,0.73,12,75%,9,3,,0.93,15,,6,73,60,37,46,100,100,100
-High Impact,Vex Mythoclast (Vault of Glass),Solar,,,390,35,22,1.6,0.77,6,83%,5,1,,1.23,9,,33,86,46,64,64,75,100,33
-Rapid Fire,Tommy's Matchbook,Solar,,,720,20,13,1.5,0.77,10,90%,9,1,,1.17,15,,18,58,59,62,10,81,64,72
-Adaptive,Monte Carlo,Kinetic,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,55,68,82,81,50,80,43
-Multi-Barrel,Cerebus+1,Kinetic,,,360,30,18,1.67,1,7,86%,6,1,,1.67,11,,33,32,28,34,42,60,86,31
-Adaptive,Hard Light,ALL,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,46,82,79,68,100,100,49
-Exotic,SUROS Regime*,Kinetic,Spinning Up x2,,900,23,14,1.6,0.53,9,89%,8,1,,0.87,14,,33,60,62,68,76,68,50,36
-Variable RoF,Sweet Business,Kinetic,Max RoF,,900,21,15,1.41,0.6,10,70%,7,3,,0.8,13,,18,42,60,10,14,80,100,150
+Archetype,Weapon,Energy,Perk,Effect,RoF,Crit_dmg,Body_dmg,Crit_mult,Optimal_TtK(s),Opt_Shots,Crit_Percent,Opt_Crits,Opt_Body,Bursts,Body_TtK,Body_Kill,Bursts,Impact,Range,Stability,Handling,Reload_Speed,Aim_Assist,Recoil_Direction,Mag_Size,Type
+High Impact,Halfdan-D (Gunsmith),Kinetic,,,360,35,22,1.6,0.83,6,83%,5,1,,1.33,9,,33,82,28,45,35,60,70,33,Autorifle
+High Impact,Gahlran's Right Hand (CoS Raid),Kinetic,,,360,35,22,1.6,0.83,6,83%,5,1,,1.33,9,,33,82,25,45,38,56,85,32,Autorifle
+High Impact,Pluperfect (Season Pass),Kinetic,,,360,35,22,1.6,0.83,6,83%,5,1,,1.33,9,,33,75,24,41,41,54,89,31,Autorifle
+High Impact,Age-Old Bond (Last Wish),Void,,,360,35,22,1.6,0.83,6,83%,5,1,,1.33,9,,33,82,18,38,34,61,79,35,Autorifle
+High Impact,False Promises (Umbral Engram),Kinetic,,,360,35,22,1.6,0.83,6,83%,5,1,,1.33,9,,33,75,25,42,44,52,86,32,Autorifle
+High Impact,Chrysura Melo (Season 15 Pass Reward),Solar,,,360,35,22,1.6,0.83,6,83%,5,1,,1.33,9,,33,76,22,37,37,58,86,32,Autorifle
+High Impact,Come to Pass (Wellspring)ᶜ,Arc,,,360,35,22,1.6,0.83,6,83%,5,1,,1.33,9,,33,80,23,38,41,54,83,32,Autorifle
+High Impact,Herod-C (Gambit),Stasis,,,360,35,22,1.6,0.83,6,83%,5,1,,1.33,9,,33,81,34,37,44,61,76,33,Autorifle
+Precision,BrayTech Werewolf (FotL),Kinetic,,,450,29,18,1.6,0.8,7,100%,7,0,,1.33,11,,29,72,47,45,48,47,74,34,Autorifle
+Precision,Tigerspite (Dreaming City),Kinetic,,,450,29,18,1.6,0.8,7,100%,7,0,,1.33,11,,29,66,47,46,46,44,68,33,Autorifle
+Precision,The Number (World),Arc,,,450,29,18,1.6,0.8,7,100%,7,0,,1.33,11,,29,55,46,42,42,44,70,33,Autorifle
+Precision,Shadow Price (Strikes),Arc,,,450,29,18,1.6,0.8,7,100%,7,0,,1.33,11,,29,67,50,49,52,43,79,33,Autorifle
+Precision,Hazard of the Cast (Gambit),Kinetic,,,450,29,18,1.6,0.8,7,100%,7,0,,1.33,11,,29,64,41,44,43,44,69,33,Autorifle
+Precision,Breakneck (Gambit Pinnacle)***,Kinetic,,,450,29,18,1.6,0.8,7,100%,7,0,,1.33,11,,29,68,50,43,51,44,80,34,Autorifle
+Precision,Horror Story (FotL),Kinetic,,,450,29,18,1.6,0.8,7,100%,7,0,,1.33,11,,29,61,46,43,47,35,73,32,Autorifle
+Precision,Uriel's Gift (World),Arc,,,450,29,18,1.6,0.8,7,100%,7,0,,1.33,11,,29,61,45,46,46,44,71,33,Autorifle
+Precision,Sevanth Seraph Carbine (Seraph Bounty),Kinetic,,,450,29,18,1.6,0.8,7,100%,7,0,,1.33,11,,29,62,45,45,47,34,74,34,Autorifle
+Adaptive,Sorrow's Verse (Crucible),Arc,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,50,41,68,62,68,53,41,Autorifle
+Adaptive,The Last Breath (Prophecy Dungeon),Kinetic,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,48,49,70,56,67,56,43,Autorifle
+Adaptive,Scathelocke (World),Kinetic,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,50,45,66,59,65,60,42,Autorifle
+Adaptive,Duty Bound (Nightfall),Kinetic,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,42,45,61,54,73,60,41,Autorifle
+Adaptive,The Summoner (Trials),Solar,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,46,47,73,60,62,57,42,Autorifle
+Adaptive,Arc Logic (Moon Essence),Arc,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,44,41,68,60,65,47,41,Autorifle
+Adaptive,Gnawing Hunger (Reckoning),Void,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,53,49,67,61,65,54,44,Autorifle
+Adaptive,Ether Doctor (Tangled Shore),Kinetic,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,38,40,61,52,61,47,43,Autorifle
+Adaptive,The Forward Path (Iron Banner),Kinetic,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,50,48,72,64,71,60,43,Autorifle
+Rapid Fire,Krait (World),Stasis,,,720,20,13,1.5,0.77,10,90%,9,1,,1.17,15,,18,40,62,50,58,78,56,53,Autorifle
+Rapid Fire,Steelfeather Repeater (Sundial),Kinetic,,,720,20,13,1.5,0.77,10,90%,9,1,,1.17,15,,18,32,38,44,55,72,57,49,Autorifle
+Rapid Fire,Chroma Rush (Override),Kinetic,,,720,20,13,1.5,0.77,10,90%,9,1,,1.17,15,,18,32,60,42,52,80,45,51,Autorifle
+Rapid Fire,Sweet Sorrow (Season of the Risen)ᶜ,Arc,,,720,20,13,1.5,0.77,10,90%,9,1,,1.17,15,,18,31,59,48,52,81,57,52,Autorifle
+Rapid Fire,Artic Haze (Europa),Solar,,,720,20,13,1.5,0.77,10,90%,9,1,,1.17,15,,18,32,53,48,53,75,42,51,Autorifle
+Rapid Fire,Reckless Oracle (GoS Raid),Void,,,720,20,13,1.5,0.77,10,90%,9,1,,1.17,15,,18,33,60,48,60,75,59,51,Autorifle
+Rapid Fire,Misfit (World),Arc,,,720,20,13,1.5,0.77,10,90%,9,1,,1.17,15,,18,35,58,47,53,76,54,51,Autorifle
+Rapid Fire,Valakadyn (Gunsmith),Solar,,,720,20,13,1.5,0.77,10,90%,9,1,,1.17,15,,18,35,52,44,54,66,56,53,Autorifle
+Trace Rifle,Retraced Path (Xurs Treasure Hoard),Solar,,,900,17,13,1.31,0.73,12,75%,9,3,,0.93,15,,6,68,78,51,50,100,94,94,Autorifle
+Trace Rifle,Divinity,Arc,,,900,17,13,1.31,0.73,12,75%,9,3,,0.93,15,,6,70,100,60,50,100,100,94,Autorifle
+Trace Rifle,Wavesplitter,Void,,,900,18,13,1.38,0.67,11,91%,10,1,,0.93,15,,6,70,96,51,50,100,100,102,Autorifle
+Trace Rifle,Ruinous Effigy,Void,,,900,17,13,1.31,0.73,12,75%,9,3,,0.93,15,,8,50,80,58,40,84,96,94,Autorifle
+Trace Rifle,Coldheart,Arc,,,900,18,13,1.38,0.67,11,91%,10,1,,0.93,15,,6,73,73,32,37,100,100,101,Autorifle
+Trace Rifle,Prometheus Lens,Solar,,,900,17,13,1.31,0.73,12,75%,9,3,,0.93,15,,6,73,60,37,46,100,100,100,Autorifle
+High Impact,Vex Mythoclast (Vault of Glass),Solar,,,390,35,22,1.6,0.77,6,83%,5,1,,1.23,9,,33,86,46,64,64,75,100,33,Autorifle
+Rapid Fire,Tommy's Matchbook,Solar,,,720,20,13,1.5,0.77,10,90%,9,1,,1.17,15,,18,58,59,62,10,81,64,72,Autorifle
+Adaptive,Monte Carlo,Kinetic,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,55,68,82,81,50,80,43,Autorifle
+Multi-Barrel,Cerebus+1,Kinetic,,,360,30,18,1.67,1,7,86%,6,1,,1.67,11,,33,32,28,34,42,60,86,31,Autorifle
+Adaptive,Hard Light,ALL,,,600,23,14,1.6,0.8,9,89%,8,1,,1.3,14,,21,46,82,79,68,100,100,49,Autorifle
+Exotic,SUROS Regime*,Kinetic,Spinning Up x2,,900,23,14,1.6,0.53,9,89%,8,1,,0.87,14,,33,60,62,68,76,68,50,36,Autorifle
+Variable RoF,Sweet Business,Kinetic,Max RoF,,900,21,15,1.41,0.6,10,70%,7,3,,0.8,13,,18,42,60,10,14,80,100,150,Autorifle

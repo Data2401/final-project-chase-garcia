@@ -1,21 +1,21 @@
-Archetype,Weapon,Energy,Perk,Effect,Draw_Time,Crit_dmg,Body_dmg,Crit_mult,Optimal_TtK (s),Bolts,Crit_Percent,Opt_Crits,Opt_Body,Bursts,Body_TtK,Body_Kill,Bursts,Impact,Accuracy,Stability,Handling,Reload_Speed,Aim_Assist
-Precision,No Turning Back,Kinetic,,,667,151,101,1.5,,2,0%,0,2,,,2,,76,78,53,59,46,66
-Precision,Hush (Gambit Pinnacle S7),Solar,,,667,151,101,1.5,,2,0%,0,2,,,2,,76,79,46,54,46,64
-Precision,Biting Winds (Europa),Kinetic,,,667,151,101,1.5,,2,0%,0,2,,,2,,76,78,49,54,46,66
-Precision,Accrued Redemption (GoS Raid),Kinetic,,,667,151,101,1.5,,2,0%,0,2,,,2,,76,80,49,60,46,70
-Precision,Subtle Calamity,Void,,,667,151,101,1.5,,2,0%,0,2,,,2,,76,79,46,52,46,70
-Precision,Point of the Stag (Iron Banner),Arc,,,667,151,101,1.5,,2,0%,0,2,,,2,,76,78,46,60,46,72
-Precision,Wolftone Draw (Season 15 Ritual),Arc,,,667,151,101,1.5,,2,0%,0,2,,,2,,76,78,39,60,46,68
-Precision,Under Your Skin (Season of the Risen)ᶜ,Void,,,667,151,101,1.5,,2,0%,0,2,,,2,,76,82,52,60,46,70
-Lightweight,Fel Taradiddle (Wellspring)ᶜ,Kinetic,,,600,138,86,1.6,,2,50%,1,1,,,3,,68,47,57,68,64,77
-Lightweight,Whispering Slab (Umbral Engram),Kinetic,,,600,138,86,1.6,,2,50%,1,1,,,3,,68,45,58,68,64,75
-Lightweight,The Vow (Crimson Days),Solar,,,600,138,86,1.6,,2,50%,1,1,,,3,,68,54,64,64,64,84
-Lightweight,Imperial Needle (Battlegrounds),Void,,,600,138,86,1.6,,2,50%,1,1,,,3,,68,49,48,71,64,80
-Lightweight,The Spiteful Fang (BA Forge),Kinetic,,,600,138,86,1.6,,2,50%,1,1,,,3,,68,53,55,73,64,76
-Lightweight,Tyranny of Heaven (Last Wish),Solar,,,600,138,86,1.6,,2,50%,1,1,,,3,,68,48,63,52,28,74
-Lightweight,Arsenic Bite-4b,Arc,,,600,138,86,1.6,,2,50%,1,1,,,3,,68,52,62,64,64,81
-Exotic,Trinity Ghoul,Arc,,,767,49,33,1.48,,4,100%,4,0,1.33,,6,2,80,96,50,58,55,74
-Exotic,Le Monarque,Void,DoT,,667,175,125,1.4,,2,0%,0,2,,,2,,76,85,56,63,46,70
-Exotic,Ticuu's Divination,Solar,,,600,138,86,1.6,,2,50%,1,1,,,3,,68,52,57,69,64,79
-Exotic,Wish Ender,Kinetic,,,800,160,102,1.57,,2,0%,0,2,,,2,,92,90,86,46,37,51
-Exotic(Heavy),Leviathan's Breath,Void,,,1328,0,0,,,1,0%,0,1,,,1,,9999,75,10,10,10,66
+Archetype,Weapon,Energy,Perk,Effect,Draw_Time,Crit_dmg,Body_dmg,Crit_mult,Optimal_TtK (s),Bolts,Crit_Percent,Opt_Crits,Opt_Body,Bursts,Body_TtK,Body_Kill,Bursts,Impact,Accuracy,Stability,Handling,Reload_Speed,Aim_Assist,Type
+Precision,No Turning Back,Kinetic,,,667,151,101,1.5,,2,0%,0,2,,,2,,76,78,53,59,46,66,Bow
+Precision,Hush (Gambit Pinnacle S7),Solar,,,667,151,101,1.5,,2,0%,0,2,,,2,,76,79,46,54,46,64,Bow
+Precision,Biting Winds (Europa),Kinetic,,,667,151,101,1.5,,2,0%,0,2,,,2,,76,78,49,54,46,66,Bow
+Precision,Accrued Redemption (GoS Raid),Kinetic,,,667,151,101,1.5,,2,0%,0,2,,,2,,76,80,49,60,46,70,Bow
+Precision,Subtle Calamity,Void,,,667,151,101,1.5,,2,0%,0,2,,,2,,76,79,46,52,46,70,Bow
+Precision,Point of the Stag (Iron Banner),Arc,,,667,151,101,1.5,,2,0%,0,2,,,2,,76,78,46,60,46,72,Bow
+Precision,Wolftone Draw (Season 15 Ritual),Arc,,,667,151,101,1.5,,2,0%,0,2,,,2,,76,78,39,60,46,68,Bow
+Precision,Under Your Skin (Season of the Risen)ᶜ,Void,,,667,151,101,1.5,,2,0%,0,2,,,2,,76,82,52,60,46,70,Bow
+Lightweight,Fel Taradiddle (Wellspring)ᶜ,Kinetic,,,600,138,86,1.6,,2,50%,1,1,,,3,,68,47,57,68,64,77,Bow
+Lightweight,Whispering Slab (Umbral Engram),Kinetic,,,600,138,86,1.6,,2,50%,1,1,,,3,,68,45,58,68,64,75,Bow
+Lightweight,The Vow (Crimson Days),Solar,,,600,138,86,1.6,,2,50%,1,1,,,3,,68,54,64,64,64,84,Bow
+Lightweight,Imperial Needle (Battlegrounds),Void,,,600,138,86,1.6,,2,50%,1,1,,,3,,68,49,48,71,64,80,Bow
+Lightweight,The Spiteful Fang (BA Forge),Kinetic,,,600,138,86,1.6,,2,50%,1,1,,,3,,68,53,55,73,64,76,Bow
+Lightweight,Tyranny of Heaven (Last Wish),Solar,,,600,138,86,1.6,,2,50%,1,1,,,3,,68,48,63,52,28,74,Bow
+Lightweight,Arsenic Bite-4b,Arc,,,600,138,86,1.6,,2,50%,1,1,,,3,,68,52,62,64,64,81,Bow
+Exotic,Trinity Ghoul,Arc,,,767,49,33,1.48,,4,100%,4,0,1.33,,6,2,80,96,50,58,55,74,Bow
+Exotic,Le Monarque,Void,DoT,,667,175,125,1.4,,2,0%,0,2,,,2,,76,85,56,63,46,70,Bow
+Exotic,Ticuu's Divination,Solar,,,600,138,86,1.6,,2,50%,1,1,,,3,,68,52,57,69,64,79,Bow
+Exotic,Wish Ender,Kinetic,,,800,160,102,1.57,,2,0%,0,2,,,2,,92,90,86,46,37,51,Bow
+Exotic(Heavy),Leviathan's Breath,Void,,,1328,0,0,,,1,0%,0,1,,,1,,9999,75,10,10,10,66,Bow

@@ -1,15 +1,15 @@
-Archetype,Weapon,Energy,RoF,Blast_Radius,Velocity,Stability,Handling,Reload_Speed,Inventory,Aim_Assist,Mag_Size
-Wave,Deafening Whisper (Quest),Void,90,55,68,44,75,73,48,63,1
-Wave,Explosive Personality (Season of the Risen)ᶜ,Solar,90,55,75,31,71,71,62,67,1
-Wave,Martyr's Retribution (Sundial),Solar,90,55,76,32,69,67,57,72,1
-Wave,Forbearance (Vow of the Disciple)ᶜ,Arc,90,55,77,34,73,74,67,79,1
-Lightweight,The Mountaintop (Crucible Pinnacle),Kinetic,90,55,78,31,72,67,61,75,1
-Lightweight,Ignition Code (Override),Kinetic,90,55,75,35,68,68,64,71,1
-Lightweight,Empty Vessel (Strikes),Solar,90,55,75,32,68,68,63,73,1
-Lightweight,Salvager's Salvo (Pursuit),Arc,90,55,73,33,73,73,70,70,1
-Lightweight,The Militia's Birthright (Strike),Kinetic,90,55,72,23,69,63,61,75,1
-Lightweight,Truthteller (World Engram),Void,90,55,77,26,72,74,65,79,1
-Lightweight,Pardon Our Dust (Xurs Treasure Hoard),Kinetic,90,55,76,35,71,72,67,75,1
-Lightweight,Orewing's Maul (Iron Banner),Void,90,32,79,37,72,76,70,73,1
-Exotic,Fighting Lion,Kinetic,72,20,46,55,82,55,,80,1
-Triple Wave,Dead Messenger (Vox Obscura),Void,90,55,76,34,46,55,70,78,1
+Archetype,Weapon,Energy,RoF,Blast_Radius,Velocity,Stability,Handling,Reload_Speed,Inventory,Aim_Assist,Mag_Size,Type
+Wave,Deafening Whisper (Quest),Void,90,55,68,44,75,73,48,63,1,bgl
+Wave,Explosive Personality (Season of the Risen)ᶜ,Solar,90,55,75,31,71,71,62,67,1,bgl
+Wave,Martyr's Retribution (Sundial),Solar,90,55,76,32,69,67,57,72,1,bgl
+Wave,Forbearance (Vow of the Disciple)ᶜ,Arc,90,55,77,34,73,74,67,79,1,bgl
+Lightweight,The Mountaintop (Crucible Pinnacle),Kinetic,90,55,78,31,72,67,61,75,1,bgl
+Lightweight,Ignition Code (Override),Kinetic,90,55,75,35,68,68,64,71,1,bgl
+Lightweight,Empty Vessel (Strikes),Solar,90,55,75,32,68,68,63,73,1,bgl
+Lightweight,Salvager's Salvo (Pursuit),Arc,90,55,73,33,73,73,70,70,1,bgl
+Lightweight,The Militia's Birthright (Strike),Kinetic,90,55,72,23,69,63,61,75,1,bgl
+Lightweight,Truthteller (World Engram),Void,90,55,77,26,72,74,65,79,1,bgl
+Lightweight,Pardon Our Dust (Xurs Treasure Hoard),Kinetic,90,55,76,35,71,72,67,75,1,bgl
+Lightweight,Orewing's Maul (Iron Banner),Void,90,32,79,37,72,76,70,73,1,bgl
+Exotic,Fighting Lion,Kinetic,72,20,46,55,82,55,,80,1,bgl
+Triple Wave,Dead Messenger (Vox Obscura),Void,90,55,76,34,46,55,70,78,1,bgl
