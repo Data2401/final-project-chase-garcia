@@ -1,43 +1,43 @@
 Archetype,Weapon,Energy,Perk,Effect,RoF,Crit_dmg,Body_dmg,Crit_mult,"Optimal
- TtK(s)",Shots,Crit_Percent,Opt_Crits,Opt_Body,Bursts,Body_TtK,Body_Kill,Bursts,Impact,Range,Stability,Handling,Reload_Speed,Aim_Assist,Recoil_Direction,Mag_Size,Type
-High-Impact,Eystein-D (Gunsmith),Kinetic,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,66,50,31,39,31,72,27,Pulserifle
-High-Impact,Legal Action II (World),Kinetic,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,66,53,32,40,32,70,27,Pulserifle
-High-Impact,Premonition (Moon Essence),Void,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,64,48,33,40,32,77,27,Pulserifle
-High-Impact,Redrix's Broadsword****,Kinetic,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,60,59,38,44,39,75,27,Pulserifle
-High-Impact,The Messenger (Trials),Kinetic,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,69,59,38,44,37,60,30,Pulserifle
-High-Impact,Stars in Shadow (BL Crucible),Solar,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,66,49,31,41,28,64,27,Pulserifle
-High-Impact,Redrix's Claymore****,Kinetic,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,60,59,38,44,39,75,27,Pulserifle
-High-Impact,Cold Denial (Umbral Engrams),Kinetic,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,61,50,32,41,32,73,27,Pulserifle
-Aggressive,Sacred Provenance (GoS Raid),Kinetic,,,450,27,16,1.7,0.73,8,75%,6,2,2,1.6,13,3.25,35,72,61,32,42,48,70,40,Pulserifle
-Aggressive,Go Figure (World),Kinetic,,,450,27,16,1.7,0.73,8,75%,6,2,2,1.6,13,3.25,35,72,61,32,40,40,69,40,Pulserifle
-Aggressive,Blast Furnace (BA Forge),Kinetic,,,450,27,16,1.7,0.73,8,75%,6,2,2,1.6,13,3.25,35,81,67,31,42,42,65,40,Pulserifle
-Aggressive,Right Side of Wrong (Tangled Shore),Solar,,,450,27,16,1.7,0.73,8,75%,6,2,2,1.6,13,3.25,35,61,60,25,38,49,60,40,Pulserifle
-Aggressive,Insidious (Vow of the Disciple)ᶜ,Arc,,,450,27,16,1.7,0.73,8,75%,6,2,2,1.6,13,3.25,35,77,64,34,41,44,78,40,Pulserifle
-Adaptive,Forge's Pledge (Iron Banner),Solar,,,390,30,19,1.6,0.93,7,86%,6,1,2.33,1.47,11,3.67,29,44,57,45,48,61,51,36,Pulserifle
-Adaptive,Adhortative (Vex Invasion),Solar,,,390,30,19,1.6,0.93,7,86%,6,1,2.33,1.47,11,3.67,29,47,55,48,45,61,61,36,Pulserifle
-Adaptive,Bygones (Gambit),Kinetic,,,390,30,19,1.6,0.93,7,86%,6,1,2.33,1.47,11,3.67,29,53,60,51,51,61,69,39,Pulserifle
-Adaptive,The Third Axiom (Strikes),Arc,,,390,30,19,1.6,0.93,7,86%,6,1,2.33,1.47,11,3.67,29,54,60,52,51,66,74,36,Pulserifle
-Adaptive,Hailing Confusion (Europa),Kinetic,,,390,30,19,1.6,0.93,7,86%,6,1,2.33,1.47,11,3.67,29,43,57,47,48,62,52,36,Pulserifle
-Adaptive,Jian 7 Rifle (World),Arc,,,390,30,19,1.6,0.93,7,86%,6,1,2.33,1.47,11,3.67,29,47,51,52,43,64,80,33,Pulserifle
-Adaptive,Last Perdition (Crucible),Void,,,390,30,19,1.6,0.93,7,86%,6,1,2.33,1.47,11,3.67,29,50,66,49,53,60,63,39,Pulserifle
-Adaptive,Syncopation-53 (World)ᶜ,Stasis,,,390,30,19,1.6,0.93,7,86%,6,1,2.33,1.47,11,3.67,29,51,63,51,48,66,79,36,Pulserifle
-Legacy,BxR-55 Battler (Xurs Treasure Hoard),Solar,,,450,25,15,1.66,0.87,8,100%,8,0,2.67,1.6,13,4.33,27,55,63,74,67,85,70,36,Pulserifle
-Lightweight,Ogma PR6 (World),Solar,,,450,25,15,1.66,0.87,8,100%,8,0,2.67,1.6,13,4.33,27,44,57,73,60,73,55,32,Pulserifle
-Lightweight,Chattering Bone (Last Wish),Kinetic,,,450,25,15,1.66,0.87,8,100%,8,0,2.67,1.6,13,4.33,27,33,52,70,63,71,57,33,Pulserifle
-Lightweight,Nightshade (Vanguard),Kinetic,,,450,25,15,1.66,0.87,8,100%,8,0,2.67,1.6,13,4.33,27,40,59,69,62,68,56,30,Pulserifle
-Lightweight,Infinite Paths 8 (Obelisk),Arc,,,450,25,15,1.66,0.87,8,100%,8,0,2.67,1.6,13,4.33,27,37,55,70,64,76,59,33,Pulserifle
-Rapid-Fire,Piece of Mind (Season of the Risen)ᶜ,Kinetic,,,540,24,14,1.7,0.8,9,78%,7,2,3,1.4,14,4.67,23,38,51,34,39,82,58,36,Pulserifle
-Rapid-Fire,Darkest Before (Prophecy Dungeon),Arc,,,540,24,14,1.7,0.8,9,78%,7,2,3,1.4,14,4.67,23,41,53,34,42,75,64,36,Pulserifle
-Rapid-Fire,Outlast (Reckoning),Solar,,,540,24,14,1.7,0.8,9,78%,7,2,3,1.4,14,4.67,23,43,53,36,38,78,60,33,Pulserifle
-Rapid-Fire,Jurassic Green (FotL),Solar,,,540,24,14,1.7,0.8,9,78%,7,2,3,1.4,14,4.67,23,34,47,27,34,76,50,36,Pulserifle
-Rapid-Fire,Gridskipper (Override),Void,,,540,24,14,1.7,0.8,9,78%,7,2,3,1.4,14,4.67,23,40,52,34,42,80,55,33,Pulserifle
-Rapid-Fire,Time Worn Spire (Iron Banner),Kinetic,,,540,24,14,1.7,0.8,9,78%,7,2,3,1.4,14,4.67,23,33,54,33,37,79,60,36,Pulserifle
-Rapid-Fire,Claws of the Wolf (Iron Banner),Void,,,540,24,14,1.7,0.8,9,78%,7,2,3,1.4,14,4.67,23,41,45,29,34,78,53,33,Pulserifle
-Rapid-Fire,Horror's Least (Strike),Arc,,,540,24,14,1.7,0.8,9,78%,7,2,3,1.4,14,4.67,23,34,49,22,35,82,55,36,Pulserifle
-Lightweight,Bad Juju,Kinetic,,,450,25,15,1.66,0.87,8,100%,8,0,2.67,1.6,13,4.33,27,46,79,60,52,60,85,27,Pulserifle
-Lightweight,Outbreak Perfected,Kinetic,,,450,25,15,1.66,0.87,8,100%,8,0,2.67,1.6,13,4.33,27,68,46,42,50,65,90,33,Pulserifle
-High-Impact,No Time to Explain,Kinetic,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,82,64,61,64,45,90,24,Pulserifle
-Adaptive,Collective Obligation,Void,,,390,30,19,1.6,0.93,7,86%,6,1,2.33,1.47,11,3.67,29,54,60,47,47,67,76,36,Pulserifle
-Two-Shot,Graviton Lance*,Void,,,257,37,23,1.61,1,6,67%,4,2,3,1.87,9,4.5,29,73,100,54,61,60,85,39,Pulserifle
-Rapid-Fire,Vigilance Wing**,Kinetic,,,530,24,16,1.5,0.7,8,100%,8,0,1.6,1.2,12,2.4,33,68,73,49,46,60,79,50,Pulserifle
-Hand Cannon,Crimson***,Kinetic,,,386,30.5,19,1.61,0.87,7,86%,6,1,2.33,1.43,11,3.67,92,75,97,42,64,75,55,24,Pulserifle
+ TtK(s)",Shots,Crit_Percent,Opt_Crits,Opt_Body,Bursts,Body_TtK,Body_Kill,Bursts,Impact,Range,Stability,Handling,Reload_Speed,Aim_Assist,Recoil_Direction,Mag_Size,Type,Ammo
+High-Impact,Eystein-D (Gunsmith),Kinetic,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,66,50,31,39,31,72,27,Pulserifle,Primary
+High-Impact,Legal Action II (World),Kinetic,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,66,53,32,40,32,70,27,Pulserifle,Primary
+High-Impact,Premonition (Moon Essence),Void,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,64,48,33,40,32,77,27,Pulserifle,Primary
+High-Impact,Redrix's Broadsword****,Kinetic,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,60,59,38,44,39,75,27,Pulserifle,Primary
+High-Impact,The Messenger (Trials),Kinetic,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,69,59,38,44,37,60,30,Pulserifle,Primary
+High-Impact,Stars in Shadow (BL Crucible),Solar,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,66,49,31,41,28,64,27,Pulserifle,Primary
+High-Impact,Redrix's Claymore****,Kinetic,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,60,59,38,44,39,75,27,Pulserifle,Primary
+High-Impact,Cold Denial (Umbral Engrams),Kinetic,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,61,50,32,41,32,73,27,Pulserifle,Primary
+Aggressive,Sacred Provenance (GoS Raid),Kinetic,,,450,27,16,1.7,0.73,8,75%,6,2,2,1.6,13,3.25,35,72,61,32,42,48,70,40,Pulserifle,Primary
+Aggressive,Go Figure (World),Kinetic,,,450,27,16,1.7,0.73,8,75%,6,2,2,1.6,13,3.25,35,72,61,32,40,40,69,40,Pulserifle,Primary
+Aggressive,Blast Furnace (BA Forge),Kinetic,,,450,27,16,1.7,0.73,8,75%,6,2,2,1.6,13,3.25,35,81,67,31,42,42,65,40,Pulserifle,Primary
+Aggressive,Right Side of Wrong (Tangled Shore),Solar,,,450,27,16,1.7,0.73,8,75%,6,2,2,1.6,13,3.25,35,61,60,25,38,49,60,40,Pulserifle,Primary
+Aggressive,Insidious (Vow of the Disciple)ᶜ,Arc,,,450,27,16,1.7,0.73,8,75%,6,2,2,1.6,13,3.25,35,77,64,34,41,44,78,40,Pulserifle,Primary
+Adaptive,Forge's Pledge (Iron Banner),Solar,,,390,30,19,1.6,0.93,7,86%,6,1,2.33,1.47,11,3.67,29,44,57,45,48,61,51,36,Pulserifle,Primary
+Adaptive,Adhortative (Vex Invasion),Solar,,,390,30,19,1.6,0.93,7,86%,6,1,2.33,1.47,11,3.67,29,47,55,48,45,61,61,36,Pulserifle,Primary
+Adaptive,Bygones (Gambit),Kinetic,,,390,30,19,1.6,0.93,7,86%,6,1,2.33,1.47,11,3.67,29,53,60,51,51,61,69,39,Pulserifle,Primary
+Adaptive,The Third Axiom (Strikes),Arc,,,390,30,19,1.6,0.93,7,86%,6,1,2.33,1.47,11,3.67,29,54,60,52,51,66,74,36,Pulserifle,Primary
+Adaptive,Hailing Confusion (Europa),Kinetic,,,390,30,19,1.6,0.93,7,86%,6,1,2.33,1.47,11,3.67,29,43,57,47,48,62,52,36,Pulserifle,Primary
+Adaptive,Jian 7 Rifle (World),Arc,,,390,30,19,1.6,0.93,7,86%,6,1,2.33,1.47,11,3.67,29,47,51,52,43,64,80,33,Pulserifle,Primary
+Adaptive,Last Perdition (Crucible),Void,,,390,30,19,1.6,0.93,7,86%,6,1,2.33,1.47,11,3.67,29,50,66,49,53,60,63,39,Pulserifle,Primary
+Adaptive,Syncopation-53 (World)ᶜ,Stasis,,,390,30,19,1.6,0.93,7,86%,6,1,2.33,1.47,11,3.67,29,51,63,51,48,66,79,36,Pulserifle,Primary
+Legacy,BxR-55 Battler (Xurs Treasure Hoard),Solar,,,450,25,15,1.66,0.87,8,100%,8,0,2.67,1.6,13,4.33,27,55,63,74,67,85,70,36,Pulserifle,Primary
+Lightweight,Ogma PR6 (World),Solar,,,450,25,15,1.66,0.87,8,100%,8,0,2.67,1.6,13,4.33,27,44,57,73,60,73,55,32,Pulserifle,Primary
+Lightweight,Chattering Bone (Last Wish),Kinetic,,,450,25,15,1.66,0.87,8,100%,8,0,2.67,1.6,13,4.33,27,33,52,70,63,71,57,33,Pulserifle,Primary
+Lightweight,Nightshade (Vanguard),Kinetic,,,450,25,15,1.66,0.87,8,100%,8,0,2.67,1.6,13,4.33,27,40,59,69,62,68,56,30,Pulserifle,Primary
+Lightweight,Infinite Paths 8 (Obelisk),Arc,,,450,25,15,1.66,0.87,8,100%,8,0,2.67,1.6,13,4.33,27,37,55,70,64,76,59,33,Pulserifle,Primary
+Rapid-Fire,Piece of Mind (Season of the Risen)ᶜ,Kinetic,,,540,24,14,1.7,0.8,9,78%,7,2,3,1.4,14,4.67,23,38,51,34,39,82,58,36,Pulserifle,Primary
+Rapid-Fire,Darkest Before (Prophecy Dungeon),Arc,,,540,24,14,1.7,0.8,9,78%,7,2,3,1.4,14,4.67,23,41,53,34,42,75,64,36,Pulserifle,Primary
+Rapid-Fire,Outlast (Reckoning),Solar,,,540,24,14,1.7,0.8,9,78%,7,2,3,1.4,14,4.67,23,43,53,36,38,78,60,33,Pulserifle,Primary
+Rapid-Fire,Jurassic Green (FotL),Solar,,,540,24,14,1.7,0.8,9,78%,7,2,3,1.4,14,4.67,23,34,47,27,34,76,50,36,Pulserifle,Primary
+Rapid-Fire,Gridskipper (Override),Void,,,540,24,14,1.7,0.8,9,78%,7,2,3,1.4,14,4.67,23,40,52,34,42,80,55,33,Pulserifle,Primary
+Rapid-Fire,Time Worn Spire (Iron Banner),Kinetic,,,540,24,14,1.7,0.8,9,78%,7,2,3,1.4,14,4.67,23,33,54,33,37,79,60,36,Pulserifle,Primary
+Rapid-Fire,Claws of the Wolf (Iron Banner),Void,,,540,24,14,1.7,0.8,9,78%,7,2,3,1.4,14,4.67,23,41,45,29,34,78,53,33,Pulserifle,Primary
+Rapid-Fire,Horror's Least (Strike),Arc,,,540,24,14,1.7,0.8,9,78%,7,2,3,1.4,14,4.67,23,34,49,22,35,82,55,36,Pulserifle,Primary
+Lightweight,Bad Juju,Kinetic,,,450,25,15,1.66,0.87,8,100%,8,0,2.67,1.6,13,4.33,27,46,79,60,52,60,85,27,Pulserifle,Primary
+Lightweight,Outbreak Perfected,Kinetic,,,450,25,15,1.66,0.87,8,100%,8,0,2.67,1.6,13,4.33,27,68,46,42,50,65,90,33,Pulserifle,Primary
+High-Impact,No Time to Explain,Kinetic,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,82,64,61,64,45,90,24,Pulserifle,Primary
+Adaptive,Collective Obligation,Void,,,390,30,19,1.6,0.93,7,86%,6,1,2.33,1.47,11,3.67,29,54,60,47,47,67,76,36,Pulserifle,Primary
+Two-Shot,Graviton Lance*,Void,,,257,37,23,1.61,1,6,67%,4,2,3,1.87,9,4.5,29,73,100,54,61,60,85,39,Pulserifle,Primary
+Rapid-Fire,Vigilance Wing**,Kinetic,,,530,24,16,1.5,0.7,8,100%,8,0,1.6,1.2,12,2.4,33,68,73,49,46,60,79,50,Pulserifle,Primary
+Hand Cannon,Crimson***,Kinetic,,,386,30.5,19,1.61,0.87,7,86%,6,1,2.33,1.43,11,3.67,92,75,97,42,64,75,55,24,Pulserifle,Primary

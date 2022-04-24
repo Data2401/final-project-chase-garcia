@@ -1,20 +1,20 @@
-Archetype,Weapon,Energy,Perk,Effect,RoF,Crit_dmg,Body_dmg,Crit_mult,Optimal_TtK(s),Opt_Shots,Crit_Percent,Opt_Crits,Opt_Body,Bursts,Body_TtK,Body_Kill,Bursts,Impact,Range,Stability,Handling,Reload_Speed,Aim_Assist,Recoil_Direction,Inventory,Mag_Size,Type
-High-Impact,Bane of Sorrow (CoS Raid),Void,,,360,48,34,1.41,0.5,4,100%,4,0,,0.83,6,,70,71,29,45,43,30,69,44,38,Machinegun
-High-Impact,The Swarm (Strikes),Arc,,,360,48,34,1.41,0.5,4,100%,4,0,,0.83,6,,70,72,40,42,44,39,79,49,47,Machinegun
-High-Impact,Archon's Thunder (Iron Banner),Solar,,,360,48,34,1.41,0.5,4,100%,4,0,,0.83,6,,70,68,25,40,40,27,76,41,44,Machinegun
-High-Impact,Fixed Odds (Menagerie),Solar,,,360,48,34,1.41,0.5,4,100%,4,0,,0.83,6,,70,66,35,37,37,33,66,37,35,Machinegun
-High-Impact,Seventh Seraph Saw (Seraph Bounty),Arc,,,360,48,34,1.41,0.5,4,100%,4,0,,0.83,6,,70,66,30,35,38,30,41,40,43,Machinegun
-Adaptive,Hammerhead (BA Forge),Void,,,450,41,30,1.37,0.53,5,80%,4,1,,0.8,7,,41,64,64,40,64,90,75,40,59,Machinegun
-Adaptive,Commemoration (DSC Raid),Void,,,450,41,30,1.37,0.53,5,80%,4,1,,0.8,7,,41,62,60,44,55,64,80,55,59,Machinegun
-Adaptive,Corrective Measure (Vault of Glass),Void,,,450,41,30,1.37,0.53,5,80%,4,1,,0.8,7,,41,57,61,48,49,72,85,59,59,Machinegun
-Adaptive,A Fine Memorial (Moon Essence),Arc,,,450,41,30,1.37,0.53,5,80%,4,1,,0.8,7,,41,47,43,45,50,61,72,46,55,Machinegun
-Adaptive,Avalanche (The Dawning),Solar,,,450,41,30,1.37,0.53,5,80%,4,1,,0.8,7,,41,55,46,34,60,90,70,20,57,Machinegun
-Rapid-Fire,Recurrent Impact (Season of the Risen)ᶜ,Stasis,,,900,24,18,1.33,0.47,8,100%,8,0,,0.67,11,,25,34,43,40,66,67,53,43,78,Machinegun
-Rapid-Fire,Edgewise (Vanguard Pinnacle S9),Solar,,,900,24,18,1.33,0.47,8,100%,8,0,,0.67,11,,25,37,56,42,73,68,50,30,73,Machinegun
-Rapid-Fire,Thermal Erosion (Europa),Solar,,,900,24,18,1.33,0.47,8,100%,8,0,,0.67,11,,25,33,38,39,61,66,50,32,65,Machinegun
-Rapid-Fire,Shattered Cipher (Season 14 Pass),Void,,,900,24,18,1.33,0.47,8,100%,8,0,,0.67,11,,25,28,40,41,68,64,45,37,75,Machinegun
-Rapid-Fire,Temporal Clause (Season Pass S9),Void,,,900,24,18,1.33,0.47,8,100%,8,0,,0.67,11,,25,33,38,39,67,68,59,29,75,Machinegun
-Rapid-Fire,21% Delirium (Gambit Pinnalce S6),Arc,,,900,24,18,1.33,0.47,8,100%,8,0,,0.67,11,,25,50,70,39,43,70,60,45,81,Machinegun
-Exotic,Grand Overture* (Season of the Risen),Arc,,,100,,235,,,1,,0,1,,,1,,53,86,82,70,64,60,59,45,70,Machinegun
-Exotic,Thunderlord,Arc,,,450,41,30,1.37,0.53,5,80%,4,1,,0.8,7,,41,68,64,46,68,90,70,30,62,Machinegun
-Exotic,Xenophage,Solar,,,90,150,150,1,0.67,2,0%,0,2,,0.67,2,,100,89,34,37,38,33,85,3,20,Machinegun
+Archetype,Weapon,Energy,Perk,Effect,RoF,Crit_dmg,Body_dmg,Crit_mult,Optimal_TtK(s),Opt_Shots,Crit_Percent,Opt_Crits,Opt_Body,Bursts,Body_TtK,Body_Kill,Bursts,Impact,Range,Stability,Handling,Reload_Speed,Aim_Assist,Recoil_Direction,Inventory,Mag_Size,Type,Ammo
+High-Impact,Bane of Sorrow (CoS Raid),Void,,,360,48,34,1.41,0.5,4,100%,4,0,,0.83,6,,70,71,29,45,43,30,69,44,38,Machinegun,Heavy
+High-Impact,The Swarm (Strikes),Arc,,,360,48,34,1.41,0.5,4,100%,4,0,,0.83,6,,70,72,40,42,44,39,79,49,47,Machinegun,Heavy
+High-Impact,Archon's Thunder (Iron Banner),Solar,,,360,48,34,1.41,0.5,4,100%,4,0,,0.83,6,,70,68,25,40,40,27,76,41,44,Machinegun,Heavy
+High-Impact,Fixed Odds (Menagerie),Solar,,,360,48,34,1.41,0.5,4,100%,4,0,,0.83,6,,70,66,35,37,37,33,66,37,35,Machinegun,Heavy
+High-Impact,Seventh Seraph Saw (Seraph Bounty),Arc,,,360,48,34,1.41,0.5,4,100%,4,0,,0.83,6,,70,66,30,35,38,30,41,40,43,Machinegun,Heavy
+Adaptive,Hammerhead (BA Forge),Void,,,450,41,30,1.37,0.53,5,80%,4,1,,0.8,7,,41,64,64,40,64,90,75,40,59,Machinegun,Heavy
+Adaptive,Commemoration (DSC Raid),Void,,,450,41,30,1.37,0.53,5,80%,4,1,,0.8,7,,41,62,60,44,55,64,80,55,59,Machinegun,Heavy
+Adaptive,Corrective Measure (Vault of Glass),Void,,,450,41,30,1.37,0.53,5,80%,4,1,,0.8,7,,41,57,61,48,49,72,85,59,59,Machinegun,Heavy
+Adaptive,A Fine Memorial (Moon Essence),Arc,,,450,41,30,1.37,0.53,5,80%,4,1,,0.8,7,,41,47,43,45,50,61,72,46,55,Machinegun,Heavy
+Adaptive,Avalanche (The Dawning),Solar,,,450,41,30,1.37,0.53,5,80%,4,1,,0.8,7,,41,55,46,34,60,90,70,20,57,Machinegun,Heavy
+Rapid-Fire,Recurrent Impact (Season of the Risen)ᶜ,Stasis,,,900,24,18,1.33,0.47,8,100%,8,0,,0.67,11,,25,34,43,40,66,67,53,43,78,Machinegun,Heavy
+Rapid-Fire,Edgewise (Vanguard Pinnacle S9),Solar,,,900,24,18,1.33,0.47,8,100%,8,0,,0.67,11,,25,37,56,42,73,68,50,30,73,Machinegun,Heavy
+Rapid-Fire,Thermal Erosion (Europa),Solar,,,900,24,18,1.33,0.47,8,100%,8,0,,0.67,11,,25,33,38,39,61,66,50,32,65,Machinegun,Heavy
+Rapid-Fire,Shattered Cipher (Season 14 Pass),Void,,,900,24,18,1.33,0.47,8,100%,8,0,,0.67,11,,25,28,40,41,68,64,45,37,75,Machinegun,Heavy
+Rapid-Fire,Temporal Clause (Season Pass S9),Void,,,900,24,18,1.33,0.47,8,100%,8,0,,0.67,11,,25,33,38,39,67,68,59,29,75,Machinegun,Heavy
+Rapid-Fire,21% Delirium (Gambit Pinnalce S6),Arc,,,900,24,18,1.33,0.47,8,100%,8,0,,0.67,11,,25,50,70,39,43,70,60,45,81,Machinegun,Heavy
+Exotic,Grand Overture* (Season of the Risen),Arc,,,100,,235,,,1,,0,1,,,1,,53,86,82,70,64,60,59,45,70,Machinegun,Heavy
+Exotic,Thunderlord,Arc,,,450,41,30,1.37,0.53,5,80%,4,1,,0.8,7,,41,68,64,46,68,90,70,30,62,Machinegun,Heavy
+Exotic,Xenophage,Solar,,,90,150,150,1,0.67,2,0%,0,2,,0.67,2,,100,89,34,37,38,33,85,3,20,Machinegun,Heavy

@@ -1,33 +1,33 @@
-Archetype,Weapon,Energy,Perk,Effect,RoF,Crit_dmg,Body_dmg,Crit_mult,Optimal_TtK(s),Opt_Shots,Crit_Percent,Opt_Crits,Opt_Body,Bursts,Body_TtK,Body_Kill,Bursts,Impact,Range,Stability,Handling,Reload_Speed,Aim_Assist,Recoil_Direction,Mag_Size,Type
-Precision,Enigma's Draw (World),Kinetic,,,257,56,40,1.4,0.7,4,50%,2,2,,0.93,5,,51,54,48,39,28,86,90,12,Sidearm
-Precision,Lonesome (Reckoning),Kinetic,,,257,56,40,1.4,0.7,4,50%,2,2,,0.93,5,,51,62,48,40,29,86,90,12,Sidearm
-Precision,Vestian Dynasty (World),Arc,,,257,56,40,1.4,0.7,4,50%,2,2,,0.93,5,,51,55,42,44,29,90,99,12,Sidearm
-Precision,A Swift Verdict (Prophecy Dungeon),Void,,,257,56,40,1.4,0.7,4,50%,2,2,,0.93,5,,51,55,46,43,32,85,95,12,Sidearm
-Aggressive Burst,Breachlight (Sundial),Kinetic,,,325,45,32,1.4,0.73,5,60%,3,2,2.5,0.83,6,3,56,53,43,41,31,83,82,24,Sidearm
-Aggressive Burst,Brass Attacks (Season 13 Pass),Void,,,325,45,32,1.4,0.73,5,60%,3,2,2.5,0.83,6,3,56,47,44,42,34,89,90,24,Sidearm
-Aggressive Burst,Empirical Evidence (Throne World)ᶜ,Kinetic,,,325,45,33,1.4,0.73,5,60%,3,2,2.5,0.83,6,3,56,57,40,41,32,86,98,25,Sidearm
-Aggressive Burst,Smuggler's Word (World),Kinetic,,,325,45,32,1.4,0.73,5,60%,3,2,2.5,0.83,6,3,56,55,42,42,30,82,96,24,Sidearm
-Aggressive Burst,Death by Scorn (Tangled Shore),Void,,,325,45,32,1.4,0.73,5,60%,3,2,2.5,0.83,6,3,56,49,38,33,22,88,91,32,Sidearm
-Adaptive,Buzzard (Vanguard Pinnacle),Kinetic,,,300,51,36,1.4,0.6,4,100%,4,0,,1,6,,49,42,70,56,37,89,94,15,Sidearm
-Adaptive,Translation Theory (Dreaming City),Solar,,,300,51,36,1.4,0.6,4,100%,4,0,,1,6,,49,37,67,55,37,81,96,15,Sidearm
-Adaptive,The Keening (Crucible),Arc,,,300,51,36,1.4,0.6,4,100%,4,0,,1,6,,49,44,65,55,32,83,99,15,Sidearm
-Adaptive,Drang (Baroque) (Menagerie),Solar,,,300,51,36,1.4,0.6,4,100%,4,0,,1,6,,49,41,64,73,37,70,80,18,Sidearm
-Adaptive,Drang (Gunsmith),Solar,,,300,51,36,1.4,0.6,4,100%,4,0,,1,6,,49,48,70,74,19,70,80,15,Sidearm
-Lightweight,Spoiler Alert (World),Kinetic,,,360,44,31,1.4,0.67,5,60%,3,2,,1,7,,43,25,46,68,56,65,87,15,Sidearm
-Lightweight,Seventh Seraph SI-2,Void,,,360,44,31,1.4,0.67,5,60%,3,2,,1,7,,43,24,42,69,52,68,95,15,Sidearm
-Lightweight,Farewell (Override),Kinetic,,,360,44,31,1.4,0.67,5,60%,3,2,,1,7,,43,26,46,68,54,71,96,15,Sidearm
-Lightweight,Redback-5SI (World),Solar,,,360,44,31,1.4,0.67,5,60%,3,2,,1,7,,43,37,49,70,58,69,89,15,Sidearm
-Lightweight,Anonymous Autumn (Crucible),Solar,,,360,44,31,1.4,0.67,5,60%,3,2,,1,7,,43,32,50,64,50,67,99,15,Sidearm
-Omolon Adaptive,Last Hope (World),Arc,,,491,32,20,1.6,0.5,6,100%,6,0,2,1.1,10,3.33,75,41,82,55,37,70,93,27,Sidearm
-Adaptive,Peacebond (Iron Banner),Stasis,,,491,32,20,1.6,0.5,6,100%,6,0,2,1.1,10,3.33,80,40,81,55,36,69,92,30,Sidearm
-Adaptive,High Albedo (Europa),Kinetic,,,491,32,20,1.6,0.5,6,100%,6,0,2,1.1,10,3.33,80,38,72,56,37,71,99,27,Sidearm
-Omolon Adaptive,The Vision (World),Arc,,,491,32,20,1.6,0.5,6,100%,6,0,2,1.1,10,3.33,75,37,82,55,39,65,90,27,Sidearm
-Omolon Adaptive,The Last Dance (Vanguard),Arc,,,491,32,20,1.6,0.5,6,100%,6,0,2,1.1,10,3.33,75,36,86,57,35,70,97,27,Sidearm
-SUROS Rapid-Fire,Punching Out (Strikes),Solar,,,450,35,25,1.4,0.67,6,83%,5,1,,0.93,8,,35,29,67,57,49,56,88,15,Sidearm
-SUROS Rapid-Fire,The Fool's Remedy (Iron Banner),Solar,,,450,35,25,1.4,0.67,6,83%,5,1,,0.93,8,,35,34,64,63,44,58,94,15,Sidearm
-SUROS Rapid-Fire,Dead Man Walking (BA Forges),Solar,,,450,35,25,1.4,0.67,6,83%,5,1,,0.93,8,,35,28,60,54,40,56,98,15,Sidearm
-Halo,Forerunner (Magnum Opus Quest),Kinetic,ADS,,200,69,35,1.97,0.6,3,100%,3,0,,1.5,6,,35,100,88,68,96,60,96,15,Sidearm
-Adaptive,Traveler's Chosen,Kinetic,,,300,51,36,1.4,0.6,4,100%,4,0,,1,6,,49,86,73,86,46,85,85,15,Sidearm
-Precision,Cryosthesia 77k,Stasis,,,257,56,40,1.4,0.7,4,50%,2,2,,0.93,5,,51,75,65,52,42,93,92,12,Sidearm
-Adaptive,Devil's Ruin,Solar,,,300,51,37,1.38,0.6,4,100%,4,0,,1,6,,49,64,68,45,24,56,100,15,Sidearm
-Adaptive,Rat King,Kinetic,,,300,51,36,1.4,0.6,4,100%,4,0,,1,6,,49,43,61,50,55,60,80,15,Sidearm
+Archetype,Weapon,Energy,Perk,Effect,RoF,Crit_dmg,Body_dmg,Crit_mult,Optimal_TtK(s),Opt_Shots,Crit_Percent,Opt_Crits,Opt_Body,Bursts,Body_TtK,Body_Kill,Bursts,Impact,Range,Stability,Handling,Reload_Speed,Aim_Assist,Recoil_Direction,Mag_Size,Type,Ammo
+Precision,Enigma's Draw (World),Kinetic,,,257,56,40,1.4,0.7,4,50%,2,2,,0.93,5,,51,54,48,39,28,86,90,12,Sidearm,Primary
+Precision,Lonesome (Reckoning),Kinetic,,,257,56,40,1.4,0.7,4,50%,2,2,,0.93,5,,51,62,48,40,29,86,90,12,Sidearm,Primary
+Precision,Vestian Dynasty (World),Arc,,,257,56,40,1.4,0.7,4,50%,2,2,,0.93,5,,51,55,42,44,29,90,99,12,Sidearm,Primary
+Precision,A Swift Verdict (Prophecy Dungeon),Void,,,257,56,40,1.4,0.7,4,50%,2,2,,0.93,5,,51,55,46,43,32,85,95,12,Sidearm,Primary
+Aggressive Burst,Breachlight (Sundial),Kinetic,,,325,45,32,1.4,0.73,5,60%,3,2,2.5,0.83,6,3,56,53,43,41,31,83,82,24,Sidearm,Primary
+Aggressive Burst,Brass Attacks (Season 13 Pass),Void,,,325,45,32,1.4,0.73,5,60%,3,2,2.5,0.83,6,3,56,47,44,42,34,89,90,24,Sidearm,Primary
+Aggressive Burst,Empirical Evidence (Throne World)ᶜ,Kinetic,,,325,45,33,1.4,0.73,5,60%,3,2,2.5,0.83,6,3,56,57,40,41,32,86,98,25,Sidearm,Primary
+Aggressive Burst,Smuggler's Word (World),Kinetic,,,325,45,32,1.4,0.73,5,60%,3,2,2.5,0.83,6,3,56,55,42,42,30,82,96,24,Sidearm,Primary
+Aggressive Burst,Death by Scorn (Tangled Shore),Void,,,325,45,32,1.4,0.73,5,60%,3,2,2.5,0.83,6,3,56,49,38,33,22,88,91,32,Sidearm,Primary
+Adaptive,Buzzard (Vanguard Pinnacle),Kinetic,,,300,51,36,1.4,0.6,4,100%,4,0,,1,6,,49,42,70,56,37,89,94,15,Sidearm,Primary
+Adaptive,Translation Theory (Dreaming City),Solar,,,300,51,36,1.4,0.6,4,100%,4,0,,1,6,,49,37,67,55,37,81,96,15,Sidearm,Primary
+Adaptive,The Keening (Crucible),Arc,,,300,51,36,1.4,0.6,4,100%,4,0,,1,6,,49,44,65,55,32,83,99,15,Sidearm,Primary
+Adaptive,Drang (Baroque) (Menagerie),Solar,,,300,51,36,1.4,0.6,4,100%,4,0,,1,6,,49,41,64,73,37,70,80,18,Sidearm,Primary
+Adaptive,Drang (Gunsmith),Solar,,,300,51,36,1.4,0.6,4,100%,4,0,,1,6,,49,48,70,74,19,70,80,15,Sidearm,Primary
+Lightweight,Spoiler Alert (World),Kinetic,,,360,44,31,1.4,0.67,5,60%,3,2,,1,7,,43,25,46,68,56,65,87,15,Sidearm,Primary
+Lightweight,Seventh Seraph SI-2,Void,,,360,44,31,1.4,0.67,5,60%,3,2,,1,7,,43,24,42,69,52,68,95,15,Sidearm,Primary
+Lightweight,Farewell (Override),Kinetic,,,360,44,31,1.4,0.67,5,60%,3,2,,1,7,,43,26,46,68,54,71,96,15,Sidearm,Primary
+Lightweight,Redback-5SI (World),Solar,,,360,44,31,1.4,0.67,5,60%,3,2,,1,7,,43,37,49,70,58,69,89,15,Sidearm,Primary
+Lightweight,Anonymous Autumn (Crucible),Solar,,,360,44,31,1.4,0.67,5,60%,3,2,,1,7,,43,32,50,64,50,67,99,15,Sidearm,Primary
+Omolon Adaptive,Last Hope (World),Arc,,,491,32,20,1.6,0.5,6,100%,6,0,2,1.1,10,3.33,75,41,82,55,37,70,93,27,Sidearm,Primary
+Adaptive,Peacebond (Iron Banner),Stasis,,,491,32,20,1.6,0.5,6,100%,6,0,2,1.1,10,3.33,80,40,81,55,36,69,92,30,Sidearm,Primary
+Adaptive,High Albedo (Europa),Kinetic,,,491,32,20,1.6,0.5,6,100%,6,0,2,1.1,10,3.33,80,38,72,56,37,71,99,27,Sidearm,Primary
+Omolon Adaptive,The Vision (World),Arc,,,491,32,20,1.6,0.5,6,100%,6,0,2,1.1,10,3.33,75,37,82,55,39,65,90,27,Sidearm,Primary
+Omolon Adaptive,The Last Dance (Vanguard),Arc,,,491,32,20,1.6,0.5,6,100%,6,0,2,1.1,10,3.33,75,36,86,57,35,70,97,27,Sidearm,Primary
+SUROS Rapid-Fire,Punching Out (Strikes),Solar,,,450,35,25,1.4,0.67,6,83%,5,1,,0.93,8,,35,29,67,57,49,56,88,15,Sidearm,Primary
+SUROS Rapid-Fire,The Fool's Remedy (Iron Banner),Solar,,,450,35,25,1.4,0.67,6,83%,5,1,,0.93,8,,35,34,64,63,44,58,94,15,Sidearm,Primary
+SUROS Rapid-Fire,Dead Man Walking (BA Forges),Solar,,,450,35,25,1.4,0.67,6,83%,5,1,,0.93,8,,35,28,60,54,40,56,98,15,Sidearm,Primary
+Halo,Forerunner (Magnum Opus Quest),Kinetic,ADS,,200,69,35,1.97,0.6,3,100%,3,0,,1.5,6,,35,100,88,68,96,60,96,15,Sidearm,Special
+Adaptive,Traveler's Chosen,Kinetic,,,300,51,36,1.4,0.6,4,100%,4,0,,1,6,,49,86,73,86,46,85,85,15,Sidearm,Primary
+Precision,Cryosthesia 77k,Stasis,,,257,56,40,1.4,0.7,4,50%,2,2,,0.93,5,,51,75,65,52,42,93,92,12,Sidearm,Primary
+Adaptive,Devil's Ruin,Solar,,,300,51,37,1.38,0.6,4,100%,4,0,,1,6,,49,64,68,45,24,56,100,15,Sidearm,Primary
+Adaptive,Rat King,Kinetic,,,300,51,36,1.4,0.6,4,100%,4,0,,1,6,,49,43,61,50,55,60,80,15,Sidearm,Primary

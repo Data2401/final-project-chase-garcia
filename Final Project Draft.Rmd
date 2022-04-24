@@ -5,6 +5,7 @@ date: "Due 4/21/2022"
 output: html_document
 ---
 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
@@ -18,28 +19,22 @@ Auto_Rifles %>% filter(Body_dmg > 20)
 
 gun_data <- bind_rows(Auto_Rifles, Bows, Breech_Grenade_Launchers, Fusion_Rifles, Hand_Cannons, Heavy_Grenade_Launchers, Linear_Fusion_Rifles, Machine_Guns, Pulse_Rifles, Rocket_Launchers, Scout_Rifles, Shotguns, Sidearms, Sniper_Rifles, Submachine_Guns, Swords)
 
-
-view(auto_test)
-
-
 view(gun_data)
 
-view(Auto_Rifles)
 ```
 
 
 ```{r}
+
 ##Auto Rifles are fully automatic weapons that thrive in close-medium range encounters. Their 2 top values would be RoF and Body Damage.
 
 ##There are 9 Auto rifles with more than 390 ROF and more than 20 body damage
 top_autos <- Auto_Rifles %>% group_by(Archetype) %>% filter(Body_dmg > 20 & RoF > 350)
 
-
 ##Scouts are semi automatic which specialize in range and precision. Their top two specialties will rely on their Crit damage and Optimal amount of shots for a kill
 
 ##
 top_scouts <- Scout_Rifles %>% group_by(Archetype) %>% filter(Crit_dmg > 50 & Opt_Shots < 3.1)
-
 
 #Hand cannons 
 
@@ -91,7 +86,7 @@ top_bgl <- Breech_Grenade_Launchers %>% group_by(Archetype) %>% filter(Blast_Rad
 
 #Sniper rifles require special ammo which means you only start with 2 shots. However they do 1 have 1 shot capabilities like other weapons that use special ammo. Sniper excel in long range combat so the specs you will want to look out for are its handling, low zoom magnification and Aim_assist(for controller players)
 
-top_snipers <- Sniper_Rifles %>% group_by(Archetype) %>% filter(Handling > 40 & Lowest_Zoom < 55 & Aim_Assist > 50)
+top_snipers <- Sniper_Rifles %>% group_by(Archetype) %>% filter(Handling > 40 & Lowest_Zoom < 55 & Aim_Assist > 60)
 
 #Linear Fusion Rifles
 
@@ -131,15 +126,13 @@ view(top_weapons)
 ```
 
 ```{r}
-ggplot(data = top_weapons) + geom_bar(mapping = aes(x = Energy)) + ggtitle("Energy distribution using top weapons")
 
+ggplot(data = top_weapons) + geom_bar(mapping = aes(x = Energy)) + ggtitle("Energy distribution using top weapons")
 
 ggplot(data = gun_data) + geom_bar(mapping = aes(x = Energy)) + ggtitle("Energy distribution using all weapons")
 
 
 top_weapons %>% ggplot(aes(Range, Stability)) + geom_point()
-
-
 
 ```
 
@@ -149,7 +142,6 @@ top_weapons %>% ggplot(aes(Range, Stability)) + geom_point()
 
 
 ```{r}
-
 ##Graph Ideas
 gun_data %>% ggplot(aes(Crit_dmg, Body_dmg)) + geom_point()
 
@@ -157,9 +149,6 @@ gun_data %>% ggplot(aes(`Optimal_TtK(s)`)) + geom_histogram()
 
 ggplot(data = gun_data) + 
   geom_bar(mapping = aes(x = Archetype, fill = Energy)) + ggtitle("Amount of each Archetype")
-
-
-
 
 ```
 
