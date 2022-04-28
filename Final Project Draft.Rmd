@@ -37,9 +37,57 @@ Heavy <- gun_data %>% filter(Ammo == "Heavy")
 
 ```
 
+```{r}
+Primary <- gun_data %>% filter(Ammo == "Primary")
 
+top_autos <- Primary %>% filter(Body_dmg > 20 & RoF > 350 & Type == "Autorifle")
 
+top_scouts <- Primary %>% filter(Crit_dmg > 50 & Opt_Shots < 3.1 & Type == "Scoutrifle")
 
+top_pulse <- Primary %>% filter(Range > 55 & Stability > 55 & RoF > 350 & Type == "Pulserifle")
+
+top_hand_cannons <- Primary %>% filter(Range > 55 & Stability > 55 & Type == "Handcannon")
+
+top_subs <- Primary %>% filter(RoF > 700 & Handling > 55 & Stability > 55 & Type == "Sub")
+
+top_bows <- Primary %>% filter(Draw_Time < 700 & Impact > 70 & Accuracy > 50 & Type == "Bow")
+
+top_sidearms <- Primary %>% filter(Handling > 50 & Recoil_Direction > 95 & Type == "Sidearm")
+
+top_primary <- bind_rows(top_autos, top_scouts, top_pulse, top_hand_cannons, top_subs, top_bows, top_sidearms)
+
+top_3 <- bind_rows(Auto_Rifles, Pulse_Rifles, Hand_Cannons)
+```
+
+```{r}
+
+top_fusions <- Special %>% filter(`Charge_Time(ms)`<.8 & Handling > 40 & Impact > 60 & Type == "Fusionrifle")
+
+top_shotguns <- Special %>% filter(Impact > 65 & Handling > 60 & Type == "Shotgun")
+
+top_bgl <- Special %>% filter(Blast_Radius > 54, Velocity > 75 & Reload_Speed > 70 & Type == "bgl")
+
+top_snipers <- Special %>% filter(Handling > 40 & Lowest_Zoom < 55 & Aim_Assist > 60 & Type == "Sniper")
+
+top_linear <- Special %>% filter(`Charge_Time(ms)`> 500 & Handling > 35 & Type == "Linearfusion")
+
+top_special_cannons <- Special %>% filter(Range > 55 & Stability > 55 & Type == "Handcannon")
+
+top_special <- bind_rows(top_fusions, top_shotguns, top_bgl, top_snipers, top_linear, top_special_cannons)
+
+```
+
+```{r}
+top_rockets <- Heavy %>% filter(Blast_Radius > 74 & Velocity > 50 & Type == "Rocket")
+
+top_hgl <- Heavy %>% filter(Blast_Radius > 20 & Velocity > 40 & Type == "Hgl")
+
+top_mg <- Heavy %>% filter(Body_dmg > 29 & Range > 65 & Type == "Machinegun")
+
+top_swords <- Swords %>% filter(Speed > 45 & Impact > 59)
+
+top_heavy <- bind_rows(top_rockets, top_hgl, top_mg, top_swords)
+```
 
 ```{r}
 

@@ -15,9 +15,11 @@ Destiny 2, an online game that has both PvE and PvP aspects can seem very overwh
  
 My goal here is to explore all the weapons in Destiny 2 to find out which ones are most optimized for PvP. It can be hard to find what weapon to use in for PVP and that's why I hope to enlighten some of those concerns.
 
+--- 
+
 ## The Data!!
 
-The data I gathered came from the below site and contains the pure base stats behind every weapon in Destiny 2. These data sets do not contain any modifiers you get from any perks in the game and are solely from the weapons themselves. These were each pulled from 16 different spreadsheets as they were broken apart by weapo types. 
+The data I gathered came from the below site and contains the pure base stats behind every weapon in Destiny 2. These data sets do not contain any modifiers you get from any perks in the game and are solely from the weapons themselves. These were each pulled from 16 different spreadsheets as they were broken apart by weapon types. 
 
 https://www.destinymassivebreakdowns.com/weapon-stats-spreadsheet-2
 
@@ -33,11 +35,67 @@ Reading in the data
 
 ```{r}
 
-load("all_guns.RData")
+library(readr)
+Auto_Rifles <- read_csv("Weapon Data/Auto Rifles.csv")
+
+
+library(readr)
+Bows <- read_csv("Weapon Data/Bows.csv")
+
+
+library(readr)
+Breech_Grenade_Launchers <- read_csv("Weapon Data/Breech Grenade Launchers.csv")
+
+
+library(readr)
+Fusion_Rifles <- read_csv("Weapon Data/Fusion Rifles.csv")
+
+
+library(readr)
+Hand_Cannons <- read_csv("Weapon Data/Hand Cannons.csv")
+
+library(readr)
+Heavy_Grenade_Launchers <- read_csv("Weapon Data/Heavy Grenade Launchers.csv")
+
+library(readr)
+Linear_Fusion_Rifles <- read_csv("Weapon Data/Linear Fusion Rifles.csv")
+
+library(readr)
+Machine_Guns <- read_csv("Weapon Data/Machine Guns.csv")
+
+library(readr)
+Pulse_Rifles <- read_csv("Weapon Data/Pulse Rifles.csv")
+
+library(readr)
+Rocket_Launchers <- read_csv("Weapon Data/Rocket Launchers.csv")
+
+library(readr)
+Scout_Rifles <- read_csv("Weapon Data/Scout Rifles.csv")
+
+library(readr)
+Shotguns <- read_csv("Weapon Data/Shotguns.csv")
+
+library(readr)
+Sidearms <- read_csv("Weapon Data/Sidearms.csv")
+
+library(readr)
+Sniper_Rifles <- read_csv("Weapon Data/Sniper Rifles.csv")
+
+library(readr)
+Submachine_Guns <- read_csv("Weapon Data/Submachine Guns.csv")
+
+library(readr)
+Swords <- read_csv("Weapon Data/Swords.csv")
+
+
+##save(Auto_Rifles, Bows, Breech_Grenade_Launchers, Fusion_Rifles, Hand_Cannons, Heavy_Grenade_Launchers, Linear_Fusion_Rifles, Machine_Guns, Pulse_Rifles, Rocket_Launchers, Scout_Rifles, Shotguns, Sidearms, Sniper_Rifles, Submachine_Guns, Swords, file = "all_guns.RData")
+
+##load("all_guns.RData")
 
 gun_data <- bind_rows(Auto_Rifles, Bows, Breech_Grenade_Launchers, Fusion_Rifles, Hand_Cannons, Heavy_Grenade_Launchers, Linear_Fusion_Rifles, Machine_Guns, Pulse_Rifles, Rocket_Launchers, Scout_Rifles, Shotguns, Sidearms, Sniper_Rifles, Submachine_Guns, Swords)
 
 ```
+---
 
 ## The Basics
 
@@ -48,6 +106,8 @@ Below are the basics to keep in mind when selecting a loadout for PvP in Destiny
 - Your typical load out should consist of 3 weapons that each have a different ammo type.
 - You can only have 1 exotic weapon equipped at a time. 
 - There are multiple types of weapons that specialize in certain encounters. (Ex scout rifle - primary ammo, medium to long range. Fusion Rifles - special ammo, close to medium range)
+
+---
 
 ## Grouping by ammo
 
@@ -66,89 +126,178 @@ gun_data %>% filter(Ammo == "Special") %>% count(Type)
 gun_data %>% filter(Ammo == "Heavy") %>% count(Type)
 #There are 8 weapon types that use Heavy Ammo
 
+gun_data %>% filter(Energy != "ALL" & Energy != "Void Solar") %>%  ggplot(aes(Energy, fill = Ammo)) + geom_bar() + ggtitle("Types of Energy by Ammo")
+
+gun_data %>% filter(Energy == "Kinetic" & Ammo == "Primary") %>% count(Energy)
+
 ```
 
-There are 9 Weapon types that use Primary Ammo
-
-There are 7 Weapon Types that use Special Ammo
-
-There are 8 weapon types that use Heavy Ammo
-
+---
 
 ## Finding our Primary
 
-Our primary which is a weapon that has infinite ammo will be our main combat weapon. 
+Our primary which is a weapon that has infinite ammo and will be our main combat weapon. A primary weapon should be able to have an quick ttk for its best suited range. 
 
 ```{r}
+
 Primary <- gun_data %>% filter(Ammo == "Primary")
 
-top_autos <- Primary %>% filter(Body_dmg > 20 & RoF > 350 & Type == "Autorifle")
-
-top_scouts <- Primary %>% filter(Crit_dmg > 50 & Opt_Shots < 3.1 & Type == "Scoutrifle")
-
-top_pulse <- Primary %>% filter(Range > 55 & Stability > 55 & RoF > 350 & Type == "Pulserifle")
-
-top_hand_cannons <- Primary %>% filter(Range > 55 & Stability > 55 & Type == "Handcannon")
-
-top_subs <- Primary %>% filter(RoF > 700 & Handling > 55 & Stability > 55 & Type == "Sub")
-
-top_bows <- Primary %>% filter(Draw_Time < 700 & Impact > 70 & Accuracy > 50 & Type == "Bow")
-
-top_sidearms <- Primary %>% filter(Handling > 50 & Recoil_Direction > 95 & Type == "Sidearm")
-
-top_primary <- bind_rows(top_autos, top_scouts, top_pulse, top_hand_cannons, top_subs, top_bows, top_sidearms)
+Primary %>% filter(Energy != "ALL" & Ammo == "Primary" & Type != "Linearfusion") %>%  ggplot(aes(Type, fill = Energy)) + geom_bar() + ggtitle("Types of Primary Weapons by Energy")
 
 ```
 
+---
+
+## The 3 common types
+As seen in the previous example the Auto Rifles, Hand Cannons and Pulse rifles are the most abundant. 
+
 ```{r}
 
-ggplot(data = top_primary ) + geom_bar(mapping = aes(x = Type, fill = Energy)) + ggtitle("Types of top Primary Weapons colored by Element")
+top_3 <- bind_rows(Auto_Rifles, Pulse_Rifles, Hand_Cannons)
 
-pscale <- top_primary %>% ggplot(aes(Range, `Optimal_TtK(s)`, color = Type, text = Weapon)) + geom_point()
+##pscale <- top_primary %>% ggplot(aes(Range, `Optimal_TtK(s)`, color = Type, text = Weapon)) + geom_point()
 
-pscale2 <- top_primary %>% ggplot(aes(Range, Body_TtK, color = Type, text = Weapon)) + geom_point()
+##pscale2 <- top_primary %>% ggplot(aes(Range, Body_TtK, color = Type, shape = Energy, text = Weapon)) + geom_point()
 
-ggplotly(pscale)
-ggplotly(pscale2)
+##ggplotly(pscale)
+##ggplotly(pscale2)
 
-ggplotly(Primary %>% ggplot(aes(Range, Body_TtK, color = Type, text = Weapon)) + geom_point())
+##ggplotly(Primary %>% ggplot(aes(Range, `Optimal_TtK(s)` , color = Type, text = Weapon)) + geom_point())
+
+ggplotly(top_3 %>% filter(Energy != "ALL" & Archetype != "Trace Rifle" & Ammo == "Primary") %>%  ggplot(aes(Range, `Optimal_TtK(s)`, color = Energy, text = Weapon)) + geom_point() + ggtitle("Weapon types by range and Opt Ttk") + facet_wrap(~Type)) 
 
 ```
 
 ---
 
 ## Finding our Special
-Players spawn with limited special ammo but these weapons have 1 shot capabilities.(Meaning you are able to take out an enemy with one shot) I am going to create a new variable called Special that stores all weapons that use special ammo. 
+Players spawn with limited special ammo but these weapons have 1 shot capabilities.(Meaning you are able to take out an enemy with one shot) We will be looking into the 3 most common types of special weapons that are commonly seen which are Fusion rifles, Shotguns and Sniper rifles. 
 
 ```{r}
+
 Special <- gun_data %>% filter(Ammo == "Special")
 
-top_fusions <- Special %>% filter(`Charge_Time(ms)`<.8 & Handling > 40 & Impact > 60 & Type == "Fusionrifle")
-
-top_shotguns <- Special %>% filter(Impact > 65 & Handling > 60 & Type == "Shotgun")
-
-top_bgl <- Special %>% filter(Blast_Radius > 54, Velocity > 75 & Reload_Speed > 70 & Type == "bgl")
-
-top_snipers <- Special %>% filter(Handling > 40 & Lowest_Zoom < 55 & Aim_Assist > 60 & Type == "Sniper")
-
-top_linear <- Special %>% filter(`Charge_Time(ms)`> 500 & Handling > 35 & Type == "Linearfusion")
+top3s <- bind_rows(Fusion_Rifles, Shotguns, Sniper_Rifles)
 
 ```
 
-After creating a new variable called Special we will be able to search for the "best" special weapon to use. 
+```{r}
+
+##ggplotly(Special %>% filter(Energy != "Kinetic") %>%  ggplot(aes(Range, Handling, color = Type, Shape = Energy, text = Weapon)) + geom_point() + ggtitle("Density Chart"))
+
+##ggplotly(Special %>% ggplot(aes(Range, Handling, color = Type, Shape = Energy, text = Weapon)) + geom_point() + ggtitle("Density Chart"))
+
+##ggplotly(Special %>% ggplot( aes(x = Range)) + geom_density() + ggtitle('IRIS') + theme_light())
+
+ggplotly(top3s %>% filter(Range != 999 & Archetype != "Exotic" & Archetype != "Exotic Heavy" & Archetype != "Exotic Slug" & Archetype != "Multi" & Archetype != "Burst Shotgun" & Energy != "Kinetic") %>% ggplot( aes(x = Range)) +
+  geom_density() +
+  ggtitle('Density of top 3 Energy Weapon ranges') +
+  theme_light() + facet_wrap(~Type))
+
+
+```
+
+Keep in mind that each of these 3 weapon types perform differently and cannot be compared against each other. 
+
+
+---
+
+### Sniper Rifles
+These weapons are successful in long range encounters and guarantee 1 a shot kill if it is a precision shot. (Head shot)(Long Range Weapon)
+
+- Small zoom scope
+- High Aim Assist
+
+```{r}
+
+
+ggplotly(Sniper_Rifles %>% filter(Archetype != "Exotic Heavy" & Archetype != "Exotic" & Energy != "Kinetic") %>% ggplot(aes(Aim_Assist, Lowest_Zoom, color = Archetype, text = Weapon)) + geom_point() + ggtitle("Best Sniper by Aim assist and zoom"))
+
+Sniper_Rifles %>% filter(Archetype != "Exotic" & Energy != "Kinetic") %>% summarise(Avg_lowest_zoom = mean(Lowest_Zoom), Avg_Aim_Assit = mean(Aim_Assist)) 
+
+
+```
+
+
+
+---
+
+### Shotguns
+Shotguns do not have far range, with the exception of a slug shotguns and a few exotics. This weapon type will one shot a player at close range.(Short Range)
+
+- Impact
+- Handling
+
+```{r}
+
+ggplotly(Shotguns %>% filter(Archetype != "Exotic" & Archetype != "Exotic Heavy" & Archetype != "Exotic Slug" & Archetype != "Multi" & Archetype != "Burst Shotgun" & Energy != "Kinetic" & Ammo == "Special") %>% ggplot(aes(Handling, Impact, color = Archetype, text = Weapon)) + geom_point() + ggtitle("Best Shotgun by Impact and Handling"))
+
+Shotguns %>% filter(Archetype != "Exotic" & Archetype != "Exotic Heavy" & Archetype != "Exotic Slug" & Archetype != "Multi" & Energy != "Kinetic" & Ammo == "Special") %>% summarise(Avg_Impact = mean(Impact), Avg_Handling = mean(Handling)) 
+
+```
+
+
+---
+
+### Fusion Rifles 
+
+Finally the fusion rifles excel at short to medium range encounters as their form of shooting is a charged burst. (Short-Medium Range)
+
+- Low Charge time
+- Medium to High range
+
+```{r}
+
+ggplotly(Fusion_Rifles %>% filter(Weapon != "Null Composure (Pinnacle)" & Archetype != "Exotic" & Archetype != "Exotic(Heavy)" & Energy != "Kinetic" & Energy != "Stasis") %>% ggplot(aes(Range, `Charge_Time(ms)`, color = Archetype, text = Weapon)) + geom_point() + ggtitle("Best Sniper by Aim assist and zoom"))
+
+Fusion_Rifles %>% filter(Weapon != "Null Composure (Pinnacle)" & Archetype != "Exotic" & Archetype != "Exotic(Heavy)" & Energy != "Kinetic" & Energy != "Stasis") %>% summarise(Avg_Charge_Time = mean(`Charge_Time(ms)`), Avg_Range = mean(Range))
+
+```
+
+
+---
 
 ### Finding our Heavy
 
-Heavy ammo is vary scarce and at player do not start with any upon spawning in. Heavy ammo is only accessible during the halfway point of matches and only have 2 spawn locations. Even though heavy ammo spawns there is no gaurantee you will grab it since other players will be on the look out for it. 
+Heavy ammo is vary scarce and at player do not start with any upon spawning in. Heavy ammo is only accessible during the halfway point of matches and only have 2 spawn locations. Even though heavy ammo spawns there is no guarantee you will grab it since other players will be on the look out for it. 
+
+- High Blast Radius
+- High Velocity
 
 
 ```{r}
-
+##We are not going to include Leviathans Breath, One Thousand Voices, Darci or Whisper for heavy options because they are unbelievably slow and not reasonable to use for PVP. 
 Heavy <- gun_data %>% filter(Ammo == "Heavy")
-
 
 ```
 
 
+```{r}
 
+ggplotly(Rocket_Launchers %>% filter(Archetype != "Exotic") %>%  ggplot(aes(Blast_Radius, Velocity, color = Archetype, Shape = Energy, text = Weapon)) + geom_point() + geom_point() + ggtitle("Density Chart"))
+
+```
+
+The only Reasonable option is to run a rocket launcher. Since swords can be out matched by most special weapons. Grenade launchers do not always guarantee a kill and  have a much smaller blast radius than rocket launchers.
+
+---
+
+# Primary 
+- The Last Word (Short Range)
+- Suros Regime (Medium Range)
+- No Time to Explain (Medium-Long Range)
+
+# Special
+- Any Aggressive Frame Shotgun(Short Range)
+- Snorri FR5 (Short-Medium Range)
+- Fathers Sins (Medium-Long Range)
+
+# Heavy
+- Any type of High Impact Frame that is a Rocket(Any Range)
+
+--- 
+
+## References 
+
+https://www.destinymassivebreakdowns.com/weapon-stats-spreadsheet-2
 

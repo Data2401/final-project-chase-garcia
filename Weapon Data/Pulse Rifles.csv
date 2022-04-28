@@ -1,5 +1,4 @@
-Archetype,Weapon,Energy,Perk,Effect,RoF,Crit_dmg,Body_dmg,Crit_mult,"Optimal
- TtK(s)",Shots,Crit_Percent,Opt_Crits,Opt_Body,Bursts,Body_TtK,Body_Kill,Bursts,Impact,Range,Stability,Handling,Reload_Speed,Aim_Assist,Recoil_Direction,Mag_Size,Type,Ammo
+Archetype,Weapon,Energy,Perk,Effect,RoF,Crit_dmg,Body_dmg,Crit_mult,Optimal_TtK(s),Shots,Crit_Percent,Opt_Crits,Opt_Body,Bursts,Body_TtK,Body_Kill,Bursts,Impact,Range,Stability,Handling,Reload_Speed,Aim_Assist,Recoil_Direction,Mag_Size,Type,Ammo
 High-Impact,Eystein-D (Gunsmith),Kinetic,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,66,50,31,39,31,72,27,Pulserifle,Primary
 High-Impact,Legal Action II (World),Kinetic,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,66,53,32,40,32,70,27,Pulserifle,Primary
 High-Impact,Premonition (Moon Essence),Void,Rampage,,340,40,24,1.64,0.6,5,100%,5,0,1.67,1.13,8,2.67,33,64,48,33,40,32,77,27,Pulserifle,Primary
