@@ -167,6 +167,9 @@ top_3 <- bind_rows(Auto_Rifles, Pulse_Rifles, Hand_Cannons)
 ggplotly(top_3 %>% filter(Energy != "ALL" & Archetype != "Trace Rifle" & Ammo == "Primary") %>%  ggplot(aes(Range, `Optimal_TtK(s)`, color = Energy, text = Weapon)) + geom_point() + ggtitle("Weapon types by range and Opt Ttk") + facet_wrap(~Type)) 
 
 ```
+---
+
+
 
 ---
 
