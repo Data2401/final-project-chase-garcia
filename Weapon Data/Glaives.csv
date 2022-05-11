@@ -1,0 +1,22 @@
+,Glaives,,,,,,Damage,,,Ranged Kill,,,,,Melee Kill,,,,,,,,,,,,,
+Archetype,Weapon,Energy,Perk,Effect,RoF,"Total
+X",Ranged,Melee,"Crit
+X","Ranged
+ TtK (s)","Shots
+to
+Kill","Crit
+Percent",Crits,Body,"Melee
+TtK","Hits
+ to Kill",Bursts,Impact,Range,Handling,"Reload
+ Speed","Aim
+ Assist",Inventory,"Shield
+Duration","Charge
+Time","Mag
+ Size",,
+Adaptive,The Enigma (Throne World)ᶜ,Void,-,-,55,,131,75,,1.09,2,0%,0,3,-,3,,80,60,42,46,61,45,50,45,4,,Very Good
+Adaptive,Lubrae's Ruin (Vow of the Disciple)ᶜ,Solar,-,-,55,,131,75,,1.09,2,0%,0,3,-,3,,80,50,50,55,72,40,46,40,4,,Good
+Exotic,Edge of Concurrence (Hunter)ᶜ*,Arc,-,-,80,,,,,#VALUE!,?,0%,0,3,-,#DIV/0!,,55,60,60,82,75,70,28,20,6,,Ok
+Exotic,Edge of Action (Titan)ᶜ,Void,-,-,55,,131,75,,1.09,2,0%,0,3,-,3,,80,46,46,32,30,30,82,80,4,,Average
+Exotic,Edge of Intent (Warlock)ᶜ,Solar,-,-,45,,,,,#VALUE!,?,0%,0,3,-,#DIV/0!,,95,73,37,50,50,50,73,70,3,,Poor
+*Lightning Seeker still needs to be tested for effectiveness,,,,,,,,,,,,,,,,,,,,,,,,,,,,Bad
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,Very bad

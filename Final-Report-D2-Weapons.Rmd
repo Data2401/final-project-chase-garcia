@@ -1,0 +1,401 @@
+---
+title: "Final Report on Destiny 2 weapons for PvP"
+author: "Chase Garcia"
+date: "5/8/2022"
+output: html_document
+---
+
+ 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(dplyr)
+load("all_guns.RData")
+
+
+save(Auto_Rifles, Bows, Breech_Grenade_Launchers, Fusion_Rifles, Hand_Cannons, Heavy_Grenade_Launchers, Linear_Fusion_Rifles, Machine_Guns, Pulse_Rifles, Rocket_Launchers, Scout_Rifles, Shotguns, Sidearms, Sniper_Rifles, Submachine_Guns, Swords, file = "all_guns.RData")
+
+load("all_guns.RData")
+```
+
+## Intro
+
+Destiny 2, an online game that has both PvE and PvP aspects can seem very overwhelming when trying to find a proper weapon load out. There are multiple aspects behind each weapon whether it be the type of weapon it is, the ammo it uses, or just the pure stats behind the weapon.
+ 
+My goal here is to explore all the weapons in Destiny 2 to find out which ones are most optimized for PvP. It can be hard to find what weapon to use in for PVP and that's why I hope to enlighten some of those concerns.
+
+--- 
+
+## The Data!!
+
+The data I gathered came from the below site and contains the pure base stats behind every weapon in Destiny 2. These data sets do not contain any modifiers you get from any perks in the game and are solely from the weapons themselves. These were each pulled from 16 different spreadsheets as they were broken apart by weapon types. 
+
+https://www.destinymassivebreakdowns.com/weapon-stats-spreadsheet-2
+
+```{r}
+
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(plotly)
+
+```
+Reading in the data
+
+```{r}
+
+library(readr)
+Auto_Rifles <- read_csv("Weapon Data/Auto Rifles.csv")
+
+
+library(readr)
+Bows <- read_csv("Weapon Data/Bows.csv")
+
+
+library(readr)
+Breech_Grenade_Launchers <- read_csv("Weapon Data/Breech Grenade Launchers.csv")
+
+
+library(readr)
+Fusion_Rifles <- read_csv("Weapon Data/Fusion Rifles.csv")
+
+
+library(readr)
+Hand_Cannons <- read_csv("Weapon Data/Hand Cannons.csv")
+
+library(readr)
+Heavy_Grenade_Launchers <- read_csv("Weapon Data/Heavy Grenade Launchers.csv")
+
+library(readr)
+Linear_Fusion_Rifles <- read_csv("Weapon Data/Linear Fusion Rifles.csv")
+
+library(readr)
+Machine_Guns <- read_csv("Weapon Data/Machine Guns.csv")
+
+library(readr)
+Pulse_Rifles <- read_csv("Weapon Data/Pulse Rifles.csv")
+
+library(readr)
+Rocket_Launchers <- read_csv("Weapon Data/Rocket Launchers.csv")
+
+library(readr)
+Scout_Rifles <- read_csv("Weapon Data/Scout Rifles.csv")
+
+library(readr)
+Shotguns <- read_csv("Weapon Data/Shotguns.csv")
+
+library(readr)
+Sidearms <- read_csv("Weapon Data/Sidearms.csv")
+
+library(readr)
+Sniper_Rifles <- read_csv("Weapon Data/Sniper Rifles.csv")
+
+library(readr)
+Submachine_Guns <- read_csv("Weapon Data/Submachine Guns.csv")
+
+library(readr)
+Swords <- read_csv("Weapon Data/Swords.csv")
+
+
+##save(Auto_Rifles, Bows, Breech_Grenade_Launchers, Fusion_Rifles, Hand_Cannons, Heavy_Grenade_Launchers, Linear_Fusion_Rifles, Machine_Guns, Pulse_Rifles, Rocket_Launchers, Scout_Rifles, Shotguns, Sidearms, Sniper_Rifles, Submachine_Guns, Swords, file = "all_guns.RData")
+
+##load("all_guns.RData")
+
+gun_data <- bind_rows(Auto_Rifles, Bows, Breech_Grenade_Launchers, Fusion_Rifles, Hand_Cannons, Heavy_Grenade_Launchers, Linear_Fusion_Rifles, Machine_Guns, Pulse_Rifles, Rocket_Launchers, Scout_Rifles, Shotguns, Sidearms, Sniper_Rifles, Submachine_Guns, Swords)
+
+```
+---
+
+## The Basics
+
+Below are the basics to keep in mind when selecting a loadout for PvP in Destiny 2.
+
+- You are able to carry 3 weapons. 1 kinetic, 1 special and 1 heavy weapon. 
+- There are 3 ammo types in the game. Primary(infinite), Special(limited) and Heavy ammo(scarce). 
+- Your typical load out should consist of 3 weapons that each have a different ammo type.
+- You can only have 1 exotic weapon equipped at a time. 
+- There are multiple types of weapons that specialize in certain encounters. (Ex scout rifle - primary ammo, medium to long range. Fusion Rifles - special ammo, close to medium range)
+
+
+
+---
+
+## Grouping by ammo
+
+Since one of the major aspects for deciding our weapons of choice is ammo it is only best to see which types of weapons take what ammo. 
+
+```{r}
+##What weapons take Primary Ammo
+gun_data %>% filter(Ammo == "Primary") %>% count(Type)
+#There are 9 Weapon types that use Primary Ammo
+
+##What weapons take Special Ammo
+gun_data %>% filter(Ammo == "Special") %>% count(Type)
+#There are 7 Weapon Types that use Special Ammo
+
+##What weapons take Heavy Ammo
+gun_data %>% filter(Ammo == "Heavy") %>% count(Type)
+#There are 8 weapon types that use Heavy Ammo
+
+gun_data %>% filter(Energy != "ALL" & Energy != "Void Solar") %>%  ggplot(aes(Energy, fill = Ammo)) + geom_bar() + ggtitle("Types of Energy by Ammo")
+
+gun_data %>% filter(Energy == "Kinetic" & Ammo == "Primary") %>% count(Energy)
+
+```
+
+---
+
+## Finding our Primary
+
+Our primary which is a weapon that has infinite ammo and will be our main combat weapon. A primary weapon should be able to have an quick ttk for its best suited range. Primary weapons are either your main source of damage or your back up weapon to finish someone off after hitting them with your special ammo weapon. This weapons needs to be reliable enough to take out targets on its own and deal enough damage to take out any enemy that was already damaged. 
+
+```{r}
+
+Primary <- gun_data %>% filter(Ammo == "Primary")
+
+Primary %>% filter(Energy != "ALL" & Ammo == "Primary" & Type != "Linearfusion") %>%  ggplot(aes(Type, fill = Energy)) + geom_bar() + ggtitle("Types of Primary Weapons by Energy")
+
+```
+
+---
+
+## The 3 common types
+As seen in the previous example the Auto Rifles, Hand Cannons and Pulse rifles are the most abundant. I can say just from personal experience that these 3 types of weapons are what dominate in PvP. Yes there are exotic scout rifles, side arms and sub machine guns that perform very well.But, exotics are in a league of their own and each have something uniquely special about them that cant be compared. 
+
+```{r}
+
+top_3 <- bind_rows(Auto_Rifles, Pulse_Rifles, Hand_Cannons)
+
+##pscale <- top_primary %>% ggplot(aes(Range, `Optimal_TtK(s)`, color = Type, text = Weapon)) + geom_point()
+
+##pscale2 <- top_primary %>% ggplot(aes(Range, Body_TtK, color = Type, shape = Energy, text = Weapon)) + geom_point()
+
+##ggplotly(pscale)
+##ggplotly(pscale2)
+
+##ggplotly(Primary %>% ggplot(aes(Range, `Optimal_TtK(s)` , color = Type, text = Weapon)) + geom_point())
+
+ggplotly(top_3 %>% filter(Energy != "ALL" & Archetype != "Trace Rifle" & Ammo == "Primary") %>%  ggplot(aes(Range, `Optimal_TtK(s)`, color = Energy, text = Weapon)) + geom_point() + ggtitle("Weapon types by range and Opt Ttk") + facet_wrap(~Type)) 
+
+```
+## Other Primary weapons
+These primary weapons in general don't shine as well as the previous 3 weapon types in PvP. The remaining weapons consist of sidearms and sub machine guns which specialize in close range and tend to have a high fire rate with little damage output. Running these weapons is PvP is a not recommended because all special weapons have the potential to one shot any enemy at close-medium range. There is also scout rifles which specialize in long range encounters. Theses semi automatic weapons have a slow fire rate but to good damage at medium-far range encounters.
+
+```{r}
+
+other_prim <- bind_rows(Submachine_Guns, Sidearms, Scout_Rifles)
+
+ggplotly(other_prim %>% filter(Energy != "ALL" & Archetype != "Trace Rifle" & Ammo == "Primary") %>%  ggplot(aes(Range, `Optimal_TtK(s)`, color = Energy, text = Weapon)) + geom_point() + ggtitle("Weapon types by range and Opt Ttk") + facet_wrap(~Type)) 
+
+```
+
+As shown in these graphs we can see that the scout rifles optimal Ttk is between .8 and 1 second. The side arms and sub machine guns slowest optimal Ttk is on par with the scout rifles fastest optimal Ttk. The only 2 weapons on here I would recommend running are the Tarrabah and The Recluse. This is because of their fast Optimal ttk and a range a little above average other sub machine guns.The Sidearms are too on average to use since they don't have a far range and are just on par with sub machine guns. 
+
+---
+
+## Finding our Special
+Players spawn with limited special ammo but these weapons have 1 shot capabilities.(Meaning you are able to take out an enemy with one shot) We will be looking into the 3 most common types of special weapons that are commonly seen which are Fusion rifles, Shotguns and Sniper rifles. 
+
+```{r}
+
+Special <- gun_data %>% filter(Ammo == "Special")
+
+top3s <- bind_rows(Fusion_Rifles, Shotguns, Sniper_Rifles)
+
+```
+
+```{r}
+
+##ggplotly(Special %>% filter(Energy != "Kinetic") %>%  ggplot(aes(Range, Handling, color = Type, Shape = Energy, text = Weapon)) + geom_point() + ggtitle("Density Chart"))
+
+##ggplotly(Special %>% ggplot(aes(Range, Handling, color = Type, Shape = Energy, text = Weapon)) + geom_point() + ggtitle("Density Chart"))
+
+##ggplotly(Special %>% ggplot( aes(x = Range)) + geom_density() + ggtitle('IRIS') + theme_light())
+
+ggplotly(top3s %>% filter(Range != 999 & Archetype != "Exotic" & Archetype != "Exotic Heavy" & Archetype != "Exotic Slug" & Archetype != "Multi" & Archetype != "Burst Shotgun" & Energy != "Kinetic") %>% ggplot( aes(x = Range)) +
+  geom_density() +
+  ggtitle('Density of top 3 Energy Weapon ranges') +
+  theme_light() + facet_wrap(~Type))
+
+
+```
+
+Keep in mind that each of these 3 weapon types perform differently and cannot be compared against each other. We can see obviously that fusion rifles excell at shot to medium range. The two peaks in the shotgun denisty chart are shoing the amoung of slug and buck shot guns. (Slugs have farther range) Finally, sniper rifles are sniper rifles they all have extremely far range so their range does not matter when comparing. 
+
+
+
+---
+### Sniper Rifles
+These weapons are successful in long range encounters and guarantee 1 a shot kill if it is a precision shot. (Head shot)(Long Range Weapon)
+
+- Small zoom scope
+- High Aim Assist
+
+```{r}
+
+
+ggplotly(Sniper_Rifles %>% filter(Archetype != "Exotic Heavy" & Archetype != "Exotic" & Energy != "Kinetic") %>% ggplot(aes(Aim_Assist, Lowest_Zoom, color = Archetype, text = Weapon)) + geom_point() + ggtitle("Best Sniper by Aim assist and zoom"))
+
+Sniper_Rifles %>% filter(Archetype != "Exotic" & Energy != "Kinetic") %>% summarise(Avg_lowest_zoom = mean(Lowest_Zoom), Avg_Aim_Assit = mean(Aim_Assist)) 
+
+
+```
+
+---
+
+### Shotguns
+Shotguns do not have far range, with the exception of a slug shotguns and a few exotics. This weapon type will one shot a player at close range.(Short Range)
+
+- Impact
+- Handling
+
+```{r}
+
+ggplotly(Shotguns %>% filter(Archetype != "Exotic" & Archetype != "Exotic Heavy" & Archetype != "Exotic Slug" & Archetype != "Multi" & Archetype != "Burst Shotgun" & Energy != "Kinetic" & Ammo == "Special") %>% ggplot(aes(Handling, Impact, color = Archetype, text = Weapon)) + geom_point() + ggtitle("Best Shotgun by Impact and Handling"))
+
+Shotguns %>% filter(Archetype != "Exotic" & Archetype != "Exotic Heavy" & Archetype != "Exotic Slug" & Archetype != "Multi" & Energy != "Kinetic" & Ammo == "Special") %>% summarise(Avg_Impact = mean(Impact), Avg_Handling = mean(Handling)) 
+
+```
+
+
+---
+
+### Fusion Rifles 
+
+Finally the fusion rifles excel at short to medium range encounters as their form of shooting is a charged burst. (Short-Medium Range)
+
+- Low Charge time
+- Medium to High range
+
+```{r}
+
+ggplotly(Fusion_Rifles %>% filter(Weapon != "Null Composure (Pinnacle)" & Archetype != "Exotic" & Archetype != "Exotic(Heavy)" & Energy != "Kinetic" & Energy != "Stasis") %>% ggplot(aes(Range, `Charge_Time(ms)`, color = Archetype, text = Weapon)) + geom_point() + ggtitle("Best Fusion Rifles by Aim assist and zoom"))
+
+Fusion_Rifles %>% filter(Weapon != "Null Composure (Pinnacle)" & Archetype != "Exotic" & Archetype != "Exotic(Heavy)" & Energy != "Kinetic" & Energy != "Stasis") %>% summarise(Avg_Charge_Time = mean(`Charge_Time(ms)`), Avg_Range = mean(Range))
+
+```
+---
+
+### Remaining Speacial Weapons 
+The last special weapons to cover will be the glaives and Breaching grenade launchers. Unfortunately since the glaive type is a brand new weapon type I was not able to find any data that accurately recorded their capabilities. Glaives are basically a spear that can shoot a single ball of energy that does little damage. Breaching grenade launchers can be useful in certain situation but are not good to use whenever. This is because they reload after every shot(very slow reload) and only have one shot potential with a specific perk roll. 
+
+```{r}
+ggplotly(Breech_Grenade_Launchers %>% filter(Archetype != "Exotic" & Ammo == "Special" & Energy != "Kinetic") %>% ggplot(aes(Blast_Radius, Velocity, color = Archetype, text = Weapon)) + geom_point() + ggtitle("Breaching grenade Launcher"))
+
+```
+
+However is you are going to use a grenade launcher as your energy special weapon then you should go with Forbearance. This is a newly added grenade launcher with high velocity and blast radius.
+
+---
+
+### Finding our Heavy
+
+Heavy ammo is vary scarce and at player do not start with any upon spawning in. Heavy ammo is only accessible during the halfway point of matches and only have 2 spawn locations. Even though heavy ammo spawns there is no guarantee you will grab it since other players will be on the look out for it. 
+
+- High Blast Radius
+- High Velocity
+
+
+```{r}
+##We are not going to include Leviathans Breath, One Thousand Voices, Darci or Whisper for heavy options because they are unbelievably slow and not reasonable to use for PVP. 
+Heavy <- gun_data %>% filter(Ammo == "Heavy")
+
+```
+
+
+```{r}
+
+ggplotly(Rocket_Launchers %>% filter(Archetype != "Exotic") %>%  ggplot(aes(Blast_Radius, Velocity, color = Archetype, Shape = Energy, text = Weapon)) + geom_point() + geom_point() + ggtitle("Rocket Blast Radius and Velocity"))
+
+```
+
+The only Reasonable option is to run a rocket launcher. Since swords can be out matched by most special weapons. Grenade launchers do not always guarantee a kill and  have a much smaller blast radius than rocket launchers.
+
+---
+### The other Heavy Weapons
+
+Just for the sake of the argument as to why rockets are superior I will be showing the comparison of swords, heavy grenade launchers, heavy linear fusion rifles, and heavy machine guns.  
+
+```{r}
+ggplotly(Heavy_Grenade_Launchers %>% filter(Archetype != "Exotic") %>%  ggplot(aes(Blast_Radius, Velocity, color = Archetype, Shape = Energy, text = Weapon)) + geom_point() + geom_point() + ggtitle("Heavy Grenade Launchers"))
+
+
+```
+Just like rocket launchers, you are going to want blast radius and velocity on a heavy grenade launcher. This particular type of weapon does not have a very high blast radius in general so its hard to decided which one will be a viable option. You are going to want anything with a high blast radius because it will make it much easier to hit your target. 
+---
+# Swords 
+
+Swords should be used in PvP because they require you to be directly on you enemy to hit them. So many ther weapons can take you out before even getting close with one of these. But if you are somehow a ninja who is always able to get close to someone with out them noticing then you are going to want to see this graph below. 
+
+```{r}
+
+ggplotly(Swords %>% filter(Archetype != "Exotic") %>%  ggplot(aes(Speed, Impact, color = Archetype, Shape = Energy, text = Weapon)) + geom_point() + geom_point() + ggtitle("Swords Speed and Impact"))
+
+```
+
+
+A Sword will always one shot an enemy so it seems a little pointless to add impact in here. However during PvP players are able to get their "Super" which allows them to do massive damage and have significantly raised defenses. Swords with low impact will not eliminate enemies with one shot while in their Super Ability. With that in mind the gold tusk seems like a solid sword to use statistically speaking. (SIDENOTE: However the temptations hook which is a casting sword allows the player to throw a projectile from the sword to one shot any enemy. But, since that is a perk I didn't include it when deciding the most "viable" sword.) 
+
+---
+## Heavy Linear Fusion Rifles
+
+Just like the fusion rifles that take special ammo, Heavy Linear Fusion Rifles have a short charge time before firing but only shoot a single lazer instead of multiple. These weapons will only one shot an enemy if it is a precision shot.(Headshot) That being said these weapons are already at a disadvantage since these are just on par with sniper rifles. For these weapons you are going to want the same things as a fusion rifle. (Quick Charge time and Range)
+
+```{r}
+
+ggplotly(Linear_Fusion_Rifles %>% filter(Ammo == "Heavy" & Archetype != "Exotic" & Archetype != "Exotic(Heavy)" & Energy != "Kinetic" & Energy != "Stasis") %>% ggplot(aes(Range, `Charge_Time(ms)`, color = Archetype, text = Weapon)) + geom_point() + ggtitle("Linear Fusion Rifles "))
+
+```
+As shown in the plot above the onnly 2 here are Threaded Needle and Tarantula have the same charge time but Tarantula have a far greater range. Tarantula wins this category but I highly recommend NOT running this type of weapon for PVP. (Just use a sniper)
+
+
+---
+
+## Heavy Machine Guns 
+This type of heavy weapon is just a beefy auto rifle that eliminates enemies a lot quicker than a primary weapon but NEVER a one shot. I opted to rule out these weapons in the heavy slot because special weapons can one shot and you start with 2 round. In order to use a heavy you need to first find it ammo halfway through a match and then maybe eliminate a target if you don't get blown to bits before then. Anyways, the things you are going to want for these Heavy machine guns are quick Ttk and good range. 
+
+
+```{r}
+
+ggplotly(Machine_Guns %>% filter(Energy != "ALL" & Archetype != "Exotic" & Ammo == "Heavy") %>%  ggplot(aes(Range, `Optimal_TtK(s)`, color = Energy, text = Weapon)) + geom_point() + ggtitle("Machine Guns by range and Opt Ttk"))
+
+```
+
+
+Since this plot is showing us their Optimal Ttks ae all within a tenth of a second I say its best to look for the one with the most range. This leaves us with The Swarm barely ahead Bane of Sorrow. Meaning if you want to use a machine gun in PVP (NOT RECOMMENEDED) then you should use The Swarm. 
+
+
+---
+## Conclusion 
+The below weapons are the ones I have gathered from the data above and are proven to be the most optimized weapons for Destiny 2's PvP. These weapons are all reliable and I dare say the best at what they do, which is eliminate other players with ease. 
+
+
+# Primary 
+
+- The Last Word (Short Range)
+- Suros Regime (Medium Range)
+- No Time to Explain (Medium-Long Range)
+
+# Special
+
+- Any Aggressive Frame Shotgun(Short Range)
+- Snorri FR5 (Short-Medium Range)
+- Fathers Sins (Medium-Long Range)
+
+# Heavy
+
+- Any type of High Impact Frame that is a Rocket(Any Range)
+
+--- 
+
+## References 
+
+https://www.destinymassivebreakdowns.com/weapon-stats-spreadsheet-2
+
+
+
+
+SORRY IF ALL THOSE SCATTER PLOTS SEEM A LITTLE REPETITIVE, THOSE REALLY SHOW WHAT TO LOOK FOR IN THESE STATS! 
+
+

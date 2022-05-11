@@ -1,0 +1,40 @@
+Archetype,Weapon,Energy,Perk,Effect,RoF,Crit_dmg,Body_dmg,Crit_mult,Optimal_TtK(s),Opt_Shots,Crit_Percent,Opt_Crits,Opt_Body,Bursts,Body_TtK,Body_Kill,Bursts,Impact,Range,Stability,Handling,Reload_Speed,Inventory,Aim_Assist,Mag_Size,Lowest_Zoom,Type,Ammo
+Aggressive,Bite of the Fox (Iron Banner),Kinetic,,,72,474,158,3,,1,100%,1,0,,0.83,2,,90,73,28,32,32,38,41,3,43,Sniper,Special
+Aggressive,Tartara Gaze (Black Armory),Arc,,,72,474,158,3,,1,100%,1,0,,0.83,2,,90,73,30,33,41,43,45,3,50,Sniper,Special
+Aggressive,Revoker (Crucible Pinnacle S7),Kinetic,,,72,474,158,3,,1,100%,1,0,,0.83,2,,90,80,34,30,37,45,44,3,35,Sniper,Special
+Aggressive,Frozen Orbit (Crucible),Void,,,72,474,158,3,,1,100%,1,0,,0.83,2,,90,75,34,28,37,45,48,3,50,Sniper,Special
+Aggressive,Occluded Finality (Iron Banner),Arc,,,72,474,158,3,,1,100%,1,0,,0.83,2,,90,78,36,37,41,59,47,3,58,Sniper,Special
+Aggressive,Succession (DSC Raid),Kinetic,,,72,474,158,3,,1,100%,1,0,,0.83,2,,90,78,31,37,42,50,48,3,50,Sniper,Special
+Aggressive,Dreaded Venture (Gambit),Kinetic,,,72,474,158,3,,1,100%,1,0,,0.83,2,,90,74,35,31,39,39,49,3,45,Sniper,Special
+Aggressive,Trophy Hunter (Season Pass),Void,,,72,474,158,3,,1,100%,1,0,,0.83,2,,90,80,30,31,41,39,46,3,50,Sniper,Special
+Aggressive,The Long Walk (Prophecy Dungeon),Solar,,,72,474,158,3,,1,100%,1,0,,0.83,2,,90,80,28,35,41,41,48,3,50,Sniper,Special
+Aggressive,Silicon Neuroma (Nightfall),Kinetic,,,72,474,158,3,,1,100%,1,0,,0.83,2,,90,77,25,32,34,35,47,3,43,Sniper,Special
+Adaptive,1000 Yard Stare (Grasp of Avarice Dungeon),Void,,,90,386,131,2.95,,1,100%,1,0,,0.67,2,,70,57,50,48,47,50,66,4,44,Sniper,Special
+Adaptive,Shepherd's Watch (World),Kinetic,,,90,386,131,2.95,,1,100%,1,0,,0.67,2,,70,52,48,44,43,32,60,4,50,Sniper,Special
+Adaptive,Thoughtless (Season of the Risen)ᶜ,Stasis,,,90,386,131,2.95,,1,100%,1,0,,0.67,2,,70,56,54,50,50,48,67,4,46,Sniper,Special
+Adaptive,Fugue (World),Void,,,90,386,131,2.95,,1,100%,1,0,,0.67,2,,70,59,54,52,50,45,66,4,50,Sniper,Special
+Adaptive,Eye of Sol (Trials),Kinetic,,,90,386,131,2.95,,1,100%,1,0,,0.67,2,,70,55,54,51,46,45,68,4,45,Sniper,Special
+Adaptive,Tranquility (Moon Essence),Kinetic,,,90,386,131,2.95,,1,100%,1,0,,0.67,2,,70,52,43,52,42,40,61,4,45,Sniper,Special
+Adaptive,Adored (Quest),Arc,,,90,386,131,2.95,,1,100%,1,0,,0.67,2,,70,73,51,52,44,36,68,4,45,Sniper,Special
+Adaptive,Far Future (Battlegrounds),Solar,,,90,386,131,2.95,,1,100%,1,0,,0.67,2,,70,53,52,47,48,30,62,4,45,Sniper,Special
+Adaptive,Uzume RR4 (Nightfall),Solar,,,90,386,131,2.95,,1,100%,1,0,,0.67,2,,70,64,53,51,50,50,67,4,50,Sniper,Special
+Adaptive,Beloved (Menagerie),Solar,,,90,386,131,2.95,,1,100%,1,0,,0.67,2,,70,55,51,52,44,36,68,4,40,Sniper,Special
+Adaptive,Long Shadow (Vanguard),Kinetic,,,90,386,131,2.95,,1,100%,1,0,,0.67,2,,70,50,48,46,46,32,59,4,50,Sniper,Special
+Adaptive,Sole Survivor (Reckoning),Arc,,,90,386,131,2.95,,1,100%,1,0,,0.67,2,,70,51,42,48,49,41,51,4,40,Sniper,Special
+Adaptive,Elegy-49 (Gunsmith),Void,,,90,386,131,2.95,,1,100%,1,0,,0.67,2,,70,46,46,46,46,35,60,4,50,Sniper,Special
+Adaptive,The Long Goodbye (Strike),Arc,,,90,386,131,2.95,,1,100%,1,0,,0.67,2,,70,49,48,40,44,43,55,4,40,Sniper,Special
+Adaptive,Fate Cries Foul (Crucible),Void,,,90,386,131,2.95,,1,100%,1,0,,0.67,2,,70,48,47,47,44,31,60,4,50,Sniper,Special
+Rapid-Fire,Father's Sins (Wellspring)ᶜ,Void,,,139,293,90,3.25,,1,100%,1,0,,0.87,3,,55,38,38,69,60,48,73,5,35,Sniper,Special
+Rapid-Fire,Apostate (Altars of Sorrow),Arc,,,139,293,90,3.25,,1,100%,1,0,,0.87,3,,55,42,47,69,65,51,73,5,40,Sniper,Special
+Rapid-Fire,Omniscient Eye (GoS Raid),Solar,,,139,293,90,3.25,,1,100%,1,0,,0.87,3,,55,43,42,73,61,44,72,5,40,Sniper,Special
+Rapid-Fire,Praedyth's Revenge (Vault of Glass),Kinetic,,,139,293,90,3.25,,1,100%,1,0,,0.87,3,,55,41,46,73,67,60,78,5,49,Sniper,Special
+Rapid-Fire,Twilight Oath (Dreaming City),Solar,,,139,293,90,3.25,,1,100%,1,0,,0.87,3,,55,34,42,68,62,45,70,5,35,Sniper,Special
+Rapid-Fire,The Supremacy (Last Wish),Kinetic,,,139,293,90,3.25,,1,100%,1,0,,0.87,3,,55,32,38,68,62,42,77,5,40,Sniper,Special
+Rapid-Fire,IKELOS_SR_v1.1.0.1 (Contact Event),Solar,,,139,293,90,3.25,,1,100%,1,0,,0.87,3,,55,37,45,70,61,45,73,5,45,Sniper,Special
+Rapid-Fire,Distant Tumulus (World),Solar,,,139,293,90,3.25,,1,100%,1,0,,0.87,3,,55,36,37,67,61,47,72,5,45,Sniper,Special
+Rapid-Fire,Widow's Bite (World Engram),Solar,,,139,293,90,3.25,,1,100%,1,0,,0.87,3,,55,36,42,69,60,33,69,5,45,Sniper,Special
+Adaptive,Izanagi's Burden,Kinetic,Honed Edge x4,,90,1965,328,5.99,,1,0%,0,1,,0,1,,70,62,60,52,46,60,62,4,45,Sniper,Special
+Aggressive,Borealis,ALL,,,72,474,158,3,,1,100%,1,0,,0.83,2,,90,59,66,78,50,55,65,5,45,Sniper,Special
+Rapid-Fire,Cloudstrike,Arc,,,139,292.5,90,3.25,,1,100%,1,0,,0.87,3,,55,64,68,65,46,70,68,7,50,Sniper,Special
+Exotic Heavy,D.A.R.C.I,Arc,,,139,292.5,90,3.25,,1,100%,1,0,,0.87,3,,55,46,78,82,46,60,60,7,40,Sniper,Heavy
+Exotic Heavy,Whisper of the Worm,Solar,,,72,761,170,4.48,,1,100%,1,0,,0.83,2,,100,82,42,31,42,60,39,3,40,Sniper,Heavy

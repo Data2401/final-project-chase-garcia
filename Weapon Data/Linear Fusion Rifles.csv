@@ -1,0 +1,16 @@
+Archetype,Weapon,Energy,Perk,Effect,Charge_Time(ms),Crit_dmg,Body_dmg,Crit_mult,Optimal_TtK(s),Opt_Shots,Crit_Percent,Opt_Crits,Opt_Body,Bursts,Body_TtK,Body_Kill,Bursts,Impact,Range,Stability,Handling,Reload_Speed,Inventory,Aim_Assist,Mag_Size,Type,Ammo
+Precision,Tarantula (World),Arc,,,533,497,166,2.99,0.57,1,100%,1,0,,1.13,2,,41,60,43,32,31,30,58,5,Linearfusion,Heavy
+Precision,Reed's Regret (Trials),Stasis,,,533,497,166,2.99,0.57,1,100%,1,0,,1.13,2,,41,50,53,38,35,40,66,5,Linearfusion,Heavy
+Precision,Cataclysmic (Vow of the Disciple)ᶜ,Solar,,,533,497,166,2.99,0.57,1,100%,1,0,,1.13,2,,41,45,53,38,32,37,66,5,Linearfusion,Special
+Precision,Man o' War,Solar,,,533,497,166,2.99,0.57,1,100%,1,0,,1.13,2,,41,55,47,30,28,35,61,4,Linearfusion,Special
+Precision,Line in the Sand (Sundial),Arc,,,533,497,166,2.99,0.57,1,100%,1,0,,1.13,2,,41,36,48,33,31,28,60,5,Linearfusion,Special
+Precision,Threaded Needle (Battlegrounds),Void,,,533,497,166,2.99,0.57,1,100%,1,0,,1.13,2,,41,43,52,35,28,35,62,5,Linearfusion,Heavy
+Precision,Corsair's Wrath (Quest),Solar,,,533,497,166,2.99,0.57,1,100%,1,0,,1.13,2,,41,41,44,32,30,26,61,5,Linearfusion,Special
+Precision,Komodo-4FR (Crucible Pinnacle),Solar,,,533,497,166,2.99,0.57,1,100%,1,0,,1.13,2,,41,43,49,32,33,29,62,5,Linearfusion,Special
+Precision,Crooked Fang-4FR,Void,,,533,497,166,2.99,0.57,1,100%,1,0,,1.13,2,,41,34,36,36,35,38,61,4,Linearfusion,Special
+Precision,Dead-Ender,Arc,,,533,497,166,2.99,0.57,1,100%,1,0,,1.13,2,,41,41,46,32,28,34,63,4,Linearfusion,Special
+Exotic,The Queenbreaker,Arc,Marksman Sights,,633,326,131,2.49,0.67,1,100%,1,0,,1.33,2,,41,55,82,55,64,40,100,5,Linearfusion,Heavy
+Exotic,Lorentz Driver,Void,,,533,497,166,2.49,0.57,1,100%,1,0,,1.33,2,,41,44,57,46,35,35,32,6,Linearfusion,Special
+Alternate,Vex Mythoclast (Vault of Glass),Solar,,,533,497,166,2.49,0.57,1,100%,1,0,,1.33,2,,41,86,46,64,64,,75,,Linearfusion,Primary
+Exotic Kinetic,Arbalest,Kinetic,,,533,497,166,2.99,0.57,1,100%,1,0,,1.13,2,,41,60,60,28,35,34,31,5,Linearfusion,Special
+Exotic,Sleeper Simulant,Solar,,,1033,901,747,1.21,1.07,1,0%,0,1,,1.07,1,,41,63,59,46,50,40,57,4,Linearfusion,Heavy

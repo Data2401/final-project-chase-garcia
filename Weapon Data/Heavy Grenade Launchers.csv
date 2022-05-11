@@ -1,0 +1,20 @@
+Archetype,Weapon,Energy,RoF,Time_Between_Shots (s),Blast_Radius,Velocity,Stability,Handling,Reload_Speed,Inventory,Aim_Assist,Mag_Size,Type,Ammo
+Adaptive,Interference VI (World),Arc,120,0.5,30,36,44,46,46,36,61,6,Hgl,Heavy
+Adaptive,Wendigo GL3 (Vanguard PInnacle S7),Arc,120,0.5,30,36,44,46,51,43,66,6,Hgl,Heavy
+Adaptive,Blast Battue (Season 12 Pass),Arc,120,0.5,30,44,44,47,46,48,63,6,Hgl,Heavy
+Adaptive,Memory Interdict (World),Void,120,0.5,30,35,44,48,48,23,58,5,Hgl,Heavy
+Adaptive,Doomsday (Reckoning),Arc,120,0.5,20,45,53,55,54,33,54,6,Hgl,Heavy
+Adaptive,Crowd Pleaser (Gambit),Void,120,0.5,30,39,47,46,47,22,58,5,Hgl,Heavy
+Adaptive,Edge Transit (World),Void,120,0.5,30,39,48,48,45,38,62,6,Hgl,Heavy
+Adaptive,Through Fire and Flood (World),Arc,120,0.5,30,36,47,51,45,35,69,6,Hgl,Heavy
+Adaptive,Typhon GL5 (World),Stasis,120,0.5,30,42,48,48,50,45,60,6,Hgl,Heavy
+Rapid-Fire,Tarnation (Wellspring)ᶜ,Arc,150,0.4,15,58,31,29,32,33,29,5,Hgl,Heavy
+Rapid-Fire,Canis Major (Season 15 Ritual),Solar,150,0.4,15,57,32,28,30,36,30,5,Hgl,Heavy
+Rapid-Fire,Berenger's Memory (World Engram),Void,150,0.4,15,53,32,24,29,28,30,5,Hgl,Heavy
+Rapid-Fire,Outrageous Fortune (Vangaurd),Solar,150,0.4,15,55,36,32,28,40,30,5,Hgl,Heavy
+Rapid-Fire,Swarm of the Raven (Iron Banner),Void,150,0.4,15,54,29,26,29,31,27,5,Hgl,Heavy
+Rapid-Fire,Terran Wind (World),Solar,150,0.4,20,45,25,26,25,50,30,5,Hgl,Heavy
+Rapid-Fire,Love and Death (Moon Essence),Solar,150,0.4,15,55,29,26,33,40,29,5,Hgl,Heavy
+Exotic,The Prospector,Solar,165,0.37,10,64,42,55,32,30,60,7,Hgl,Heavy
+Exotic,Salvation's Grip,Stasis,120,0.5,32,43,42,61,60,40,68,8,Hgl,Heavy
+Exotic,The Colony,Void,140,0.43,20,28,82,82,64,70,60,7,Hgl,Heavy

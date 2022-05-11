@@ -1,0 +1,47 @@
+Archetype,Weapon,Energy,Perk,Effect,RoF,Crit_dmg,Body_dmg,Crit_mult,Optimal_TtK(s),Pellets_to_Kill,Crit_Percent,Opt_Crits,Opt_Body,Bursts,Follow_TtK,Body_Kill,Bursts,Impact,Range,Stability,Handling,Reload_Speed,Inventory,Aim_Assist,Mag_Size,Type,Ammo
+Aggressive,Mindbender's Ambition (Strike),Solar,,,55,,22,,,9,0%,,9,,1.1,2,,80,36,36,37,45,40,39,5,Shotgun,Special
+Aggressive,Last Man Standing (Reckoning),Solar,,,55,,22,,,9,0%,,9,,1.1,2,,80,33,27,33,38,33,26,4,Shotgun,Special
+Aggressive,Toil and Trouble (Vanguard),Kinetic,,,55,,22,,,9,0%,,9,,1.1,2,,80,30,36,37,41,40,30,5,Shotgun,Special
+Aggressive,Imperial Decree (Menagerie),Kinetic,,,55,,22,,,9,0%,,9,,1.1,2,,80,36,36,37,40,39,35,4,Shotgun,Special
+Aggressive,Python (Gambit Pinnacle),Void,,,55,,22,,,9,0%,,9,,1.1,2,,80,33,32,34,42,37,37,4,Shotgun,Special
+Aggressive,Found Verdict (Vault of Glass),Arc,,,55,,22,,,9,0%,,9,,1.1,2,,80,38,30,45,42,34,37,4,Shotgun,Special
+Aggressive,Felwinter's Lie (The Lie Quest),Solar,,,55,,22,,,9,0%,,9,,1.1,2,,80,36,34,40,47,34,33,4,Shotgun,Special
+Aggressive,Astral Horizon (Trials),Kinetic,,,55,,22,,,9,0%,,9,,1.1,2,,80,32,34,35,40,40,34,4,Shotgun,Special
+Aggressive,The Comedian (Nightfalls),Void,,,55,,22,,,9,0%,,9,,1.1,2,,80,35,31,37,42,40,38,4,Shotgun,Special
+Aggressive,Ragnhild-D (World)ᶜ,Kinetic,,,55,,22,,,9,0%,,9,,1.1,2,,80,35,36,37,40,40,38,5,Shotgun,Special
+Aggressive,A Sudden Death (Prophecy Dungeon),Arc,,,55,,22,,,9,0%,,9,,1.1,2,,80,32,33,32,39,37,30,4,Shotgun,Special
+Precision Slug,"First In, Last Out (World Engram)",Arc,,,64,258,151,1.71,,1,100%,1,0,,0.93,2,,70,62,46,64,50,40,27,6,Shotgun,Special
+Precision Slug,Good Bone Structure (Gunsmith),Arc,,,64,258,151,1.71,,1,100%,1,0,,0.93,2,,70,59,50,69,46,44,35,6,Shotgun,Special
+Precision Slug,Heritage (DSC Raid),Kinetic,,,64,258,151,1.71,,1,100%,1,0,,0.93,2,,70,71,49,73,50,49,68,6,Shotgun,Special
+Precision Slug,Sojourner's Tale (Season 14 Pass),Solar,,,64,258,151,1.71,,1,100%,1,0,,0.93,2,,70,65,46,67,50,43,35,6,Shotgun,Special
+Precision Slug,Bonechiller (Europa),Void,,,64,258,151,1.71,,1,100%,1,0,,0.93,2,,70,60,47,42,48,40,61,5,Shotgun,Special
+Precision Slug,Gunnora's Axe (Iron Banner),Arc,,,64,258,151,1.71,,1,100%,1,0,,0.93,2,,70,70,54,68,53,42,34,6,Shotgun,Special
+Precision Slug,Blasphemer (Altars of Sorrow),Kinetic,,,64,258,151,1.71,,1,100%,1,0,,0.93,2,,70,62,46,49,49,48,61,6,Shotgun,Special
+Precision Slug,Fortissimo-11 (Vanguard),Kinetic,,,64,258,151,1.71,,1,100%,1,0,,0.93,2,,70,65,51,60,55,45,57,5,Shotgun,Special
+Precision,Matador 64 (Grasp of Avarice Dungeon),Arc,,,64,,20,,,10,0%,,10,,0.93,2,,70,68,53,49,53,45,65,5,Shotgun,Special
+Precision,Fractethyst (Season 15 Pass),Stasis,,,64,,20,,,10,0%,,10,,0.93,2,,70,66,50,47,55,45,72,5,Shotgun,Special
+Precision,Prophet of Doom (GoS Raid),Arc,,,64,,20,,,10,0%,,10,,0.93,2,,70,70,52,41,52,48,73,5,Shotgun,Special
+Precision,Compass Rose (Solstice of Heroes),Solar,,,64,,20,,,10,0%,,10,,0.93,2,,70,66,47,42,53,45,73,5,Shotgun,Special
+Precision,Retold Tale (Dreaming City),Void,,,64,,20,,,10,0%,,10,,0.93,2,,70,69,51,41,47,38,75,6,Shotgun,Special
+Precision,Dust Rock Blues (Tangled Shore),Kinetic,,,64,,20,,,10,0%,,10,,0.93,2,,70,69,51,41,47,38,75,6,Shotgun,Special
+Lightweight,Reckless Endangerment (Playlists),Kinetic,,,78,,19,,,11,0%,,11,,0.77,2,,70,48,42,68,63,26,50,6,Shotgun,Special
+Lightweight,Wastelander M5 (Xurs Treasure Hoard),Kinetic,,,78,,19,,,11,0%,,11,,0.77,2,,70,50,46,69,63,26,49,6,Shotgun,Special
+Lightweight,Seventh Seraph CQC-12 (Season Pass),Solar,,,78,,19,,,11,0%,,11,,0.77,2,,70,49,41,72,64,27,46,6,Shotgun,Special
+Lightweight,Emperor's Courtesy (CoS Raid),Arc,,,78,,19,,,11,0%,,11,,0.77,2,,70,53,47,72,64,20,50,6,Shotgun,Special
+Lightweight,Riiswalker (Iron Banner),Kinetic,,,78,,19,,,11,0%,,11,,0.77,2,,70,50,49,74,66,25,52,6,Shotgun,Special
+Lightweight,Retrofuturist (Crucible),Void,,,78,,19,,,11,0%,,11,,0.77,2,,70,46,42,68,60,20,50,6,Shotgun,Special
+Lightweight,Xenoclast IV,Arc,,,78,,19,,,11,0%,,11,,0.77,2,,70,50,40,69,59,23,44,6,Shotgun,Special
+Lightweight,Parcel of Stardust (World),Kinetic,,,78,,19,,,11,0%,,11,,0.77,2,,70,51,45,71,60,26,52,7,Shotgun,Special
+Lightweight,Hawthorne's Field-Forged Shotgun (World),Kinetic,,,139,,17,,,12,0%,,12,,0.43,2,,65,51,37,64,64,10,45,7,Shotgun,Special
+Rapid-Fire,One Small Step (Moon Essence),Kinetic,,,139,,17,,,12,0%,,12,,0.43,2,,65,33,38,46,65,53,68,7,Shotgun,Special
+Rapid-Fire,The Deicide (World),Void,,,139,,17,,,12,0%,,12,,0.43,2,,65,34,34,44,67,51,64,7,Shotgun,Special
+Rapid-Fire,Threat Level (Scourge of the Past),Kinetic,,,139,,17,,,12,0%,,12,,0.43,2,,65,37,45,48,68,52,74,7,Shotgun,Special
+Rapid-Fire,Badlander (World),Arc,,,139,,17,,,12,0%,,12,,0.43,2,,65,34,44,51,66,57,66,7,Shotgun,Special
+Rapid-Fire,Wishbringer (Crucible),Solar,,,139,,17,,,12,0%,,12,,0.43,2,,65,37,38,39,53,64,68,7,Shotgun,Special
+Rapid-Fire,IKELOS_SG_v1.0.1 (Prophecy Dungeon),Solar,,,139,,17,,,12,0%,,12,,0.43,2,,65,41,39,50,65,60,72,7,Shotgun,Special
+Exotic Slug,The Chaperone,Kinetic,,,70,258,151,1.71,,1,100%,1,0,,0.86,2,,75,100,37,82,37,45,70,6,Shotgun,Special
+Burst Shotgun,Lord of Wolves,Solar,,,640,55,39,1.41,0.2,4,75%,3,1,0.8,0.27,5,1,68,28,59,46,64,100,80,6,Shotgun,Special
+Multi,Duality,Solar,,,64,,20,,,10,0%,0,10,,0.93,2,,80,78,55,82,11,70,65,6,Shotgun,Special
+Exotic,The Fourth Horseman,Arc,,,,,,,,,,,,,,,,80,30,50,40,42,0,39,4,Shotgun,Special
+Exotic Heavy,Tractor Cannon,Void,,,,,,,,,,,,,,,,65,28,96,42,24,0,90,4,Shotgun,Heavy
+Exotic Heavy,Legend of Acrius,Arc,,,,,,,,,,,,,,,,85,100,82,10,28,0,90,4,Shotgun,Heavy
